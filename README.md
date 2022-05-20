@@ -16,3 +16,4 @@ For simplicity of the project creation process, all information (explanations, d
 
 1. [Initialization of RADC project](https://github.com/adriatic/RADC/issues/3#issue-1242355648)
 2. [List of articles, tools and potential authors](https://github.com/adriatic/RADC/issues/3#issuecomment-1132239638)
+3. First article proposal: [stepping through the code in Tutorial authentication section](https://github.com/adriatic/RADC/issues/4#issue-1243406438)
