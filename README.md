@@ -10,7 +10,9 @@ Redwood Applications Development Cookbook
 
 ---
 
-For simplicity of the project creation process, all information (explanations, discussions and project content (cookbook articles themselves) are persisted as [issues](https://github.com/adriatic/RADC/issues) in this repository.
+For simplicity of the project creation process, all information (explanations, discussions and project content (cookbook articles themselves)) are persisted as [issues](https://github.com/adriatic/RADC/issues) in this repository.
 
 ### Index
 
+1. [Initialization of RADC project](https://github.com/adriatic/RADC/issues/3#issue-1242355648)
+2. [List of articles, tools and potential authors](https://github.com/adriatic/RADC/issues/3#issuecomment-1132239638)
