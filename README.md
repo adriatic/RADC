@@ -1,4 +1,6 @@
+
 # RADC
+
 Redwood Applications Development Cookbook
 
 <p align="center">
@@ -8,7 +10,7 @@ Redwood Applications Development Cookbook
 </p>
 <br/>
 
----
+___
 
 To make the `project creation process` simple and scalable, all information (explanations, discussions and project content (cookbook articles themselves)) are persisted as [issues](https://github.com/adriatic/RADC/issues) in this repository.
 
@@ -16,4 +18,5 @@ To make the `project creation process` simple and scalable, all information (exp
 
 1. [Initialization of RADC project](https://github.com/adriatic/RADC/issues/3#issue-1242355648)
 2. [List of articles, tools and potential authors](https://github.com/adriatic/RADC/issues/3#issuecomment-1132239638)
-3. First article proposal: [stepping through the code in Tutorial authentication section](https://github.com/adriatic/RADC/issues/4#issue-1243406438)
+3. First article proposal: [realStandal] - (https://github.com/realStandal) [General broken feature resolution](https://github.com/adriatic/RADC/issues/5)
+4. Second article proposal:[adriatic](https://github.com/adriatic) -  [stepping through the code in Tutorial authentication section](https://github.com/adriatic/RADC/issues/4#issue-1243406438)
