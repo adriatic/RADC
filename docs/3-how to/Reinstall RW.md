@@ -18,3 +18,6 @@ My initial contribution is the "delete everything and reinstall" workflow. I kno
 - Re-install dependencies (`yarn install`)
 - Re-generate Redwood types (`yarn rw g types`)
 - Re-generate the Prisma client (`yarn rw prisma generate`)
+
+___
+___
