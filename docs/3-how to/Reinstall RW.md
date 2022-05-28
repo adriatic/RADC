@@ -2,7 +2,7 @@
     hide_title: true
 ---
 
-# how to reinstall RW?
+## how to reinstall RW?
 
 ### By `realStandal`
 
