@@ -73,7 +73,7 @@ const config = {
       footer: {
         style: 'dark',
  
-        copyright: `Copyright © ${new Date().getFullYear()} RADC, built with Docusaurus on May 25, 2022` 
+        copyright: `Copyright © ${new Date().getFullYear()} RADC, built with Docusaurus on May 27, 2022` 
       },
       prism: {
         theme: lightCodeTheme,

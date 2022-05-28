@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: About DOCS project
+title: About RADC project
 authors: [adriatic]
 tags: [redwood, application, development, cookbook]
 ---
