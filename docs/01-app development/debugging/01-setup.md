@@ -29,7 +29,6 @@ resulting with the front end of the Redwood Blog application running in the brow
 </p>
 
 ---
-<br/>
 
 ### 2. Setup the (Chrome) DevTool debugger
 using the article [debugging with chrome](https://javascript.info/debugging-chrome)
@@ -60,11 +59,12 @@ The devtools docking (dock on the right in the above image) can be set according
 <br/>
 </p>
 
-Note: the browser panel with Redwood Blog is placed next to the devtools panel only as a convenience (so you can restart the application for example). Having just a single monitor, you can do everything on the devtools panel alone.
+Note: the browser panel with Redwood Blog is placed next to the devtools panel only as a convenience (so you can restart the application for example). Having just a single monitor, you can do everything on the devtools panel alone (closing the browser)
 
 ---
 
 ### 3. Setup Visual Studio Code debugger
-assuming that the Visual Studio Code is already installed (if not, visit the Visual Studio Code [home page](https://code.visualstudio.com/) and observe that the you will be prompted with the download button that preselects your development platform. 
 
-Download and install it, and then continue with the ???? paragraph)
+<br/>
+
+TBD ...
