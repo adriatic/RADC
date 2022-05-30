@@ -3,9 +3,13 @@ sidebar_position: 1
 slug: /
 title: RADC
 ---
-### Caveat
+### Caveats
 
-Sections of this document explain the first few steps needed to get this project going. All the following text is a draft of the future RADC site and is maintained in the [radc](https://github.com/adriatic/RADC) repository. Please add the comments, critics and other feedback to the [radc/issues collection](https://github.com/adriatic/RADC/issues).
+- Sections of this document explain the first few steps needed to get this project going. All the following text is a draft of the future RADC site and is maintained in the [radc](https://github.com/adriatic/RADC) repository. Please add the comments, critics and other feedback to the [radc/issues collection](https://github.com/adriatic/RADC/issues).
+
+- The information provided in this **`cookbok`** is written and mantained **BY** Redwood application developers **FOR** application developers, meaning that the workload and schedules of the core team should not and will not be affected.
+
+___
 
 ### What is RADC
 
@@ -13,11 +17,11 @@ The intent of this project is to create a big cookbook (the title Redwood Applic
 
 ### How to get involved in this (RADC) project
 
-The content of the cookbook (RADC) is expected to come from Redwood Application developers including RW Core team, RW contributors or any other RW users willing to help augment Redwood Technical Documentation. Ideally people joining this project should also create the content, however just proposing the content is very welcome.
+The content of the cookbook (RADC) is expected to come from Redwood Application developers (excluding RW Core team), RW contributors or any other RW users willing to help augment Redwood Technical Documentation. Ideally people joining this project should also create the content, however just proposing the content is very welcome.
 
 ### Join the effort
 
-Anyone is welcome to state interest in either adding to the List of articles or to declare interest in authoring any of the article from the same list (add to or "grab" from the list 😃 )
+Anyone is welcome to state interest in either adding to the List of articles or to declare interest in authoring any of the article from that same list (add to or take from the list 😃 )
 
 To simplify the "add to the list" workflow, the initial list has three entries, already agreed upon on the last "office hour" last week. In addition to the entry "subject" please supply the list of tools the use of which should be documented and used in each cookbook entry.
 
@@ -47,7 +51,7 @@ ___
 
 ___
 
-2. ### waiting for the author
+2. ### item waiting for the author
      - stepping through the code created in the Tutorial [building the form](https://redwoodjs.com/docs/tutorial/chapter3/forms),
     - using [Chrome Devtools](https://rw-community.org/how-to/debug/chrome/setup) debugger
     - using [VScode](https://rw-community.org/how-to/debug/vscode/setup) debugger.
@@ -55,7 +59,7 @@ ___
    Project not defined to be ready for creation.  
 ___
 
-3. ### waiting for the author
+3. ### item waiting for the author
      - writing the cookbook article on using [wallaby](https://rw-community.org/how-to/debug/wallaby/setup) in developing and debugging Redwood applications
   
    Project not defined to be ready for creation.  

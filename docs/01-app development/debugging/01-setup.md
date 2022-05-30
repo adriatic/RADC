@@ -1,0 +1,70 @@
+---
+hide_title: true
+---
+
+# project setup
+
+## 1. prepare the debugging target
+
+using the information from [what's Next](https://redwoodjs.com/docs/tutorial/intermission#whats-next) Redwood Tutorial section.
+
+First we need an application to be used as a debugee (app being debugged). Rather than creating such application from scratch, which is sufficiently complex to illustrate debugging practices, let's use the **_well known_** application, built in the course of the [Redwood Tutorial](https://redwoodjs.com/docs/tutorial/foreword). This application (Redwood Blog) exists [in this repository](https://github.com/redwoodjs/redwood-tutorial).
+
+Make a local clone and run it, using the commands defined in the section [using the example repo](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) of the Redwood Tutorial. Since the line `the line yarn rw g secret` is missing there, these commands are repeated here for your convenience.
+
+```
+git clone https://github.com/redwoodjs/redwood-tutorial.git
+cd redwoodblog
+yarn rw prisma migrate dev
+yarn rw prisma db seed
+yarn rw g secret
+yarn rw dev
+```
+resulting with the front end of the Redwood Blog application running in the browser
+
+<p align="center">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/166114124-54b0daa6-130d-49d2-997a-f0cb814e158b.png"/>
+<br/>
+<b>Image 1 - Redwood Blog app running locally</b>
+</p>
+
+---
+<br/>
+
+### 2. Setup the (Chrome) DevTool debugger
+using the article [debugging with chrome](https://javascript.info/debugging-chrome)
+
+Having the Redwood Blog app running in the browser (Image 1, above), invoke the DevTools from the browser menu with clicks 1, 2 and 3, shown on the Image 2
+
+<p align="center">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/2712405/169717010-ad5fa99d-12a1-4e66-96eb-23df3c106398.png"/>
+<br/>
+<b>Image 2 - invoking DevTools</b>
+</p>
+
+Click on the menu item 3, will launch the debugger panel next to the application running in the browser. The result is shown on the Image 3, below
+
+<p align="center">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/2712405/169717426-4d5be0ec-97af-45e3-8c5f-771ca564530a.png"/>
+<br/>
+<b>Image 3 - debugee and the debugger running together</b>
+
+</p>
+
+The devtools docking (dock on the right in the above image) can be set according to the Image 4 (below)
+
+<p align="center">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/2712405/169717749-aadc382e-946c-4b7d-9163-9e39c29af5d5.png"/>
+<br/>
+<b>Image 4 - setting the devtools docking preference</b>
+<br/>
+</p>
+
+Note: the browser panel with Redwood Blog is placed next to the devtools panel only as a convenience (so you can restart the application for example). Having just a single monitor, you can do everything on the devtools panel alone.
+
+---
+
+### 3. Setup Visual Studio Code debugger
+assuming that the Visual Studio Code is already installed (if not, visit the Visual Studio Code [home page](https://code.visualstudio.com/) and observe that the you will be prompted with the download button that preselects your development platform. 
+
+Download and install it, and then continue with the ???? paragraph)
