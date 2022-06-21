@@ -2,6 +2,8 @@
     title: Install PostgreSQL
 ---
 
+## How to install / reinstall PostgreSQL
+
 ### By `adriatic`
 
 <p align="left">
