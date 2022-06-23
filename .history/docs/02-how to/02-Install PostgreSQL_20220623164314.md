@@ -125,20 +125,12 @@ Then
 </p>
 <br/>
 
-In order to save this database see the screenshot below:
+In order to save this database
 
 <p align="center">
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175395748-b769f09c-bd62-46ba-88b1-33795bff1cc5.png"/>
 <br/>
-<b>Save this new database</b>
+<b>Create new database for stripe example store app</b>
 </p>
 <br/>
 
-Note that the referrence button does not show on this screenshot. Click on that button results with
-
-<p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175396844-98e290fe-fee4-4e88-8be9-a448cfdabf16.png"/>
-<br/>
-<b>Save (backup) the new database </b>
-</p>
-<br/>

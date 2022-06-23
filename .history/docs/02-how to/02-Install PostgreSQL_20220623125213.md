@@ -69,7 +69,7 @@ Double-click on the `postgresql-14.4-1-osx.dmg` file in the Finder, will result 
 - accept the port 5433
 - accept the default locale
 
-These choices result with the below listed settings - and the installer starts its job.
+These choices result with the below listed settings
 ```
 Installation Directory: /Library/PostgreSQL/14
 Server Installation Directory: /Library/PostgreSQL/14
@@ -83,62 +83,3 @@ pgAdmin4 Installation Directory: /Library/PostgreSQL/14/pgAdmin 4
 Stack Builder Installation Directory: /Library/PostgreSQL/14
 Installation Log: /tmp/install-postgresql.log
 ```
-
-<p align="center">
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/2712405/175353497-2ced3bbc-6383-4934-8374-a1915048e6c7.png"/>
-<br/>
-<b>Finished installation</b>
-</p>
-<br/>
-
-
-Click on the Finish button, results with the prompt for `Stack Builder` installation. (see [this page](https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/03_using_stackbuilder/) for explanation of this tool)
-
-<p align="center">
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/2712405/175356330-cd7f7a73-de30-4dc6-b22d-e5bb7431066d.png"/>
-<br/>
-<b>Start the Stack Builder</b>
-</p>
-<br/>
-
-Be sure to select the local PostgreSQL instance before continuing the installation of the Stack Buider tool. Accept the default selections for the applications to be installed.
-
-___
-
-### Create a database
-
-Start by launching the pgAdmin tool (it was added to the launchpad during the PostgreSQL installation)
-
-<p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175355704-cc92bbe9-8115-4736-a8f9-e2332144d765.png"/>
-<br/>
-<b>Starting pgAmin tool</b>
-</p>
-<br/>
-
-Then
-
-<p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175394029-013bd985-da38-4127-87d4-e112dcd72744.png"/>
-<br/>
-<b>Create new database for stripe</b>
-</p>
-<br/>
-
-In order to save this database see the screenshot below:
-
-<p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175395748-b769f09c-bd62-46ba-88b1-33795bff1cc5.png"/>
-<br/>
-<b>Save this new database</b>
-</p>
-<br/>
-
-Note that the referrence button does not show on this screenshot. Click on that button results with
-
-<p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175396844-98e290fe-fee4-4e88-8be9-a448cfdabf16.png"/>
-<br/>
-<b>Save (backup) the new database </b>
-</p>
-<br/>
