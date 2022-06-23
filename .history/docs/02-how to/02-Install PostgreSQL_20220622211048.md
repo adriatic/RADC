@@ -49,7 +49,5 @@ The downloaded file is `postgresql-14.4-1-osx.dmg` (size 303.2 MB).
 
 ___
 
-### Using the installer
-
 It should be installed using the information in the document [Installation of PostgreSQL on Mac OS](https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os). For your convenience here is alse the link to [PostgresQL tutorials](https://www.enterprisedb.com/postgres-tutorials).
 

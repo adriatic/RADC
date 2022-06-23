@@ -32,24 +32,8 @@ The assumption now is that you do not have PostgresQL installed on your computer
 </p>
 <br/>
 
-**Note:** using these uninstallers may not be trivially simple, since these are shell scripts - not applications, so you will have to work in it a bit :smile:.
+**Note:** using this uninstaller may not be simple, since these are shell scripts - not applications, so you will have to work in it a bit :smile:
 
 ### Download the installer
 
-Fetch the installed from the [PostgreSQL EDB (enterprise db)](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) website as shown below:
-
-<p align="center">
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/2712405/175185159-2beca5f6-3082-4b3f-84c6-5630ee9f4bb1.png"/>
-<br/>
-<b>Use version 14.4, for macOS</b>
-</p>
-<br/>
-
-The downloaded file is `postgresql-14.4-1-osx.dmg` (size 303.2 MB).
-
-___
-
-### Using the installer
-
-It should be installed using the information in the document [Installation of PostgreSQL on Mac OS](https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os). For your convenience here is alse the link to [PostgresQL tutorials](https://www.enterprisedb.com/postgres-tutorials).
-
+Fetch the installed from the [PostgreSQL EDB (enterprise db)](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) website. 
