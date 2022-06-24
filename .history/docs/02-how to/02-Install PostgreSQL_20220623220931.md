@@ -152,58 +152,10 @@ In order to verify the PostgresQL correct installation we will use two known Red
 
 2. [Example store stripe](https://github.com/redwoodjs/example-store-stripe)  
 
-and modify them to use PostgreSQL database instead of the default SQLIte)
+and modify them to use using PostgreSQL database.
 
-### 1. [Create the Example Repo application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended)
+### 1. [Create the Example Repo](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended)
 
-In order to proceed with first application we will start with the RedwoodJS Tutorial at [this paragraph](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended). Run the following commands in your terminal (the current directory should be similar to `~/dev/work/redwood/rw-community/redwood-tutorial-postgresql/`):
-
-```
-git clone https://github.com/redwoodjs/redwood-tutorial redwood-tutorial-postgresql
-cd redwood-tutorial-postgresql
-yarn install
-yarn rw prisma migrate dev
-yarn rw prisma db seed
-yarn rw g secret
-```
-
-Note that the command `yarn rw prisma db seed` is implicitly included in the command  `yarn rw prisma migrate dev` [issue #64](https://github.com/redwoodjs/redwood-tutorial/issues/64)
-
-## How is the type and schema of the database defined
-
-Running the command `yarn rw prisma migrate dev` results with the following information to console:
-
-```
-Running Prisma CLI...
-$ yarn prisma migrate dev --schema /Users/nik/dev/work/redwood/rw-community/redwood-tutorial-postgresql/api/db/schema.prisma
-
-Prisma schema loaded from api/db/schema.prisma
-Datasource "db": SQLite database "dev.db" at "file:./dev.db"
-
-SQLite database dev.db created at file:./dev.db
-
-Applying migration `20210222013102_init_database`
-Applying migration `20220208231150_create_user`
-
-The following migration(s) have been applied:
-
-migrations/
-  └─ 20210222013102_init_database/
-    └─ migration.sql
-  └─ 20220208231150_create_user/
-    └─ migration.sql
-
-Your database is now in sync with your schema.
-```
-
-This step created the database as a SQLite database at "file:./dev.db" (check [Getting Dynamic](https://redwoodjs.com/docs/tutorial/chapter2/getting-dynamic) section of the RedwoodjS Tutorial for details)
-
-<p align="center">
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/2712405/175622818-17513f41-72fb-4253-82e6-b156af8235c9.png"/>
-<br/>
-<b>Everything related to database</b>
-</p>
-<br/>
-
+In order to proceed with 1. we will start with the RedwoodJS Tutorial at [this pargraph](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended).
 ___
 ___

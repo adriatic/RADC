@@ -11,14 +11,14 @@
 
 ___
 
-## Summary
+### Summary
 
 - Use the article [Installing PostgreSQL with the Graphical Installation Wizard](https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/) combined with the original [PostgreSQL documentation](https://www.postgresql.org/docs) to show how to install PostgreSQL locally on MacOS.
 - Verify this intallation by changing the [Example Repo](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) to use the local postgreSQL repository.
 
 ___
 
-## Introduction
+### Introduction
 
 This article is written for all people who had problems following the Redwoods documentation on how to install the PostgreSQL [database](https://redwoodjs.com/docs/tutorial/chapter4/deployment#the-database), using [Brew](https://brew.sh/).
 
@@ -34,7 +34,7 @@ The assumption now is that you do not have PostgresQL installed on your computer
 
 **Note:** using these uninstallers may not be trivially simple, since these are shell scripts - not applications, so you will have to work in it a bit :smile:.
 
-## Download the installer
+### Download the installer
 
 Fetch the installed from the [PostgreSQL EDB (enterprise db)](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads) website as shown below:
 
@@ -49,7 +49,7 @@ The downloaded file is `postgresql-14.4-1-osx.dmg` (size 303.2 MB).
 
 ___
 
-## Using the installer
+### Using the installer
 
 It should be installed using the information in the document [Installation of PostgreSQL on Mac OS](https://www.enterprisedb.com/postgres-tutorials/installation-postgresql-mac-os). For your convenience here is alse the link to [PostgresQL tutorials](https://www.enterprisedb.com/postgres-tutorials).
 
@@ -91,6 +91,7 @@ Installation Log: /tmp/install-postgresql.log
 </p>
 <br/>
 
+
 Click on the Finish button, results with the prompt for `Stack Builder` installation. (see [this page](https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/03_using_stackbuilder/) for explanation of this tool)
 
 <p align="center">
@@ -104,7 +105,7 @@ Be sure to select the local PostgreSQL instance before continuing the installati
 
 ___
 
-## Create a database
+### Create a database
 
 Start by launching the pgAdmin tool (it was added to the launchpad during the PostgreSQL installation)
 
@@ -144,7 +145,7 @@ Note that the referrence button does not show on this screenshot. Click on that 
 
 ___
 
-## verification of the correctness of the installation 
+### verification of the correctness of the installation 
 
 In order to verify the PostgresQL correct installation we will use two known RedwoodJS applications:
 
@@ -152,58 +153,10 @@ In order to verify the PostgresQL correct installation we will use two known Red
 
 2. [Example store stripe](https://github.com/redwoodjs/example-store-stripe)  
 
-and modify them to use PostgreSQL database instead of the default SQLIte)
+and modify them to use using PostgreSQL database. 
 
-### 1. [Create the Example Repo application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended)
+#### 1. [Create the Example Repo](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended)
 
-In order to proceed with first application we will start with the RedwoodJS Tutorial at [this paragraph](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended). Run the following commands in your terminal (the current directory should be similar to `~/dev/work/redwood/rw-community/redwood-tutorial-postgresql/`):
-
-```
-git clone https://github.com/redwoodjs/redwood-tutorial redwood-tutorial-postgresql
-cd redwood-tutorial-postgresql
-yarn install
-yarn rw prisma migrate dev
-yarn rw prisma db seed
-yarn rw g secret
-```
-
-Note that the command `yarn rw prisma db seed` is implicitly included in the command  `yarn rw prisma migrate dev` [issue #64](https://github.com/redwoodjs/redwood-tutorial/issues/64)
-
-## How is the type and schema of the database defined
-
-Running the command `yarn rw prisma migrate dev` results with the following information to console:
-
-```
-Running Prisma CLI...
-$ yarn prisma migrate dev --schema /Users/nik/dev/work/redwood/rw-community/redwood-tutorial-postgresql/api/db/schema.prisma
-
-Prisma schema loaded from api/db/schema.prisma
-Datasource "db": SQLite database "dev.db" at "file:./dev.db"
-
-SQLite database dev.db created at file:./dev.db
-
-Applying migration `20210222013102_init_database`
-Applying migration `20220208231150_create_user`
-
-The following migration(s) have been applied:
-
-migrations/
-  └─ 20210222013102_init_database/
-    └─ migration.sql
-  └─ 20220208231150_create_user/
-    └─ migration.sql
-
-Your database is now in sync with your schema.
-```
-
-This step created the database as a SQLite database at "file:./dev.db" (check [Getting Dynamic](https://redwoodjs.com/docs/tutorial/chapter2/getting-dynamic) section of the RedwoodjS Tutorial for details)
-
-<p align="center">
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/2712405/175622818-17513f41-72fb-4253-82e6-b156af8235c9.png"/>
-<br/>
-<b>Everything related to database</b>
-</p>
-<br/>
-
+In order to proceed with 1. we will start with the RedwoodJS Tutorial at [this pargraph](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended)
 ___
 ___

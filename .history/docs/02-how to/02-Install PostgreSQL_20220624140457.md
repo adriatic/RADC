@@ -171,7 +171,7 @@ Note that the command `yarn rw prisma db seed` is implicitly included in the com
 
 ## How is the type and schema of the database defined
 
-Running the command `yarn rw prisma migrate dev` results with the following information to console:
+The command `yarn rw prisma migrate dev` writes the following information to console
 
 ```
 Running Prisma CLI...
@@ -197,13 +197,6 @@ Your database is now in sync with your schema.
 ```
 
 This step created the database as a SQLite database at "file:./dev.db" (check [Getting Dynamic](https://redwoodjs.com/docs/tutorial/chapter2/getting-dynamic) section of the RedwoodjS Tutorial for details)
-
-<p align="center">
-<img width="300" alt="image" src="https://user-images.githubusercontent.com/2712405/175622818-17513f41-72fb-4253-82e6-b156af8235c9.png"/>
-<br/>
-<b>Everything related to database</b>
-</p>
-<br/>
 
 ___
 ___
