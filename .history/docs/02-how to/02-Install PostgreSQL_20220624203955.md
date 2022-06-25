@@ -218,8 +218,6 @@ The format of the  (a PostgreSQL connection URL) is:
 
 So, "DATABASE_URL" enviroment variable (for our locally installed database) is:
 
-```
-DATABASE_URL=postgresql://rwadmin:my-secret-password@localhost:5432/redwood-blog
-```
+`DATABASE_URL=postgresql://rwadmin:<passwd>@localhost:5432/redwood-blog`
 ___
 ___

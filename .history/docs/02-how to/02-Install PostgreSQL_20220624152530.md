@@ -115,19 +115,19 @@ Start by launching the pgAdmin tool (it was added to the launchpad during the Po
 </p>
 <br/>
 
-Then create a new postgresql database
+Then
 
 <p align="center">
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/175750162-b513e189-f34c-47fe-905b-77549d35896f.png"/>
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175394029-013bd985-da38-4127-87d4-e112dcd72744.png"/>
 <br/>
-<b>Create new database for Redwood Blog application</b>
+<b>Create new database for stripe</b>
 </p>
 <br/>
 
-Observe that this database's owner is "rwadmin" - this info will be used later in In order to save this database see the screenshot below:
+In order to save this database see the screenshot below:
 
 <p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175750547-191c7d59-dca3-4a19-bdd4-cf1b0bde72e1.png"/>
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175395748-b769f09c-bd62-46ba-88b1-33795bff1cc5.png"/>
 <br/>
 <b>Save this new database</b>
 </p>
@@ -136,7 +136,7 @@ Observe that this database's owner is "rwadmin" - this info will be used later i
 Note that the reference button does not show on this screenshot. Click on that button results with
 
 <p align="center">
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175750626-c1f9ec33-c400-41fd-8290-58a8ad3ad10d.png"/>
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/2712405/175396844-98e290fe-fee4-4e88-8be9-a448cfdabf16.png"/>
 <br/>
 <b>Save (backup) the new database </b>
 </p>
@@ -146,14 +146,14 @@ ___
 
 ## verification of the database installation correctness
 
-To verify the correct PostgresQL installation we will use a well-known [Redwood Blog Application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) and modify it to use PostgreSQL database instead of the default SQLIte). We will do this in following several steps
+To verify the correct PostgresQL installation we will use a well-known [Redwood Blog Application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) and modify it to use PostgreSQL database instead of the default SQLIte). We will do this in several steps
 
 ### 1. Create the [Example Repo application (aka Redwood Blog)](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended)
 
-In order to build this application we will start with the RedwoodJS Tutorial at [this paragraph](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended). Run the following commands in your terminal (the current directory should be similar to `~/dev/work/redwood/rw-community/redwood-tutorial-postgresql/`) and observe that we named the clone `redwood-tutorial-postgresql`. That will allow us to first build this [Redwood Tutorial App](https://github.com/redwoodjs/redwood-tutorial#redwood-tutorial-app) the standard way as explained in the [setup](https://github.com/redwoodjs/redwood-tutorial#setup) section (just to verify that we have all needed piece needed to build this app from sources)
+In order to proceed with first application we will start with the RedwoodJS Tutorial at [this paragraph](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended). Run the following commands in your terminal (the current directory should be similar to `~/dev/work/redwood/rw-community/redwood-tutorial-postgresql/`) and observe that we named the clone `redwood-tutorial-postgresql`. That will allow us to first build this [Redwood Tutorial App](https://github.com/redwoodjs/redwood-tutorial#redwood-tutorial-app) the standard way as explained in the [setup](https://github.com/redwoodjs/redwood-tutorial#setup) section (just to verify that we have all needed piece needed to build this app from sources)
 
 ```
-git clone https://github.com/redwoodjs/redwood-tutorial 
+git clone https://github.com/redwoodjs/redwood-tutorial redwood-tutorial-postgresql
 cd redwood-tutorial-postgresql
 yarn install
 yarn rw prisma migrate dev
@@ -163,7 +163,7 @@ yarn rw g secret
 
 Note that the command `yarn rw prisma db seed` is implicitly included in the command  `yarn rw prisma migrate dev` [issue #64](https://github.com/redwoodjs/redwood-tutorial/issues/64)
 
-### 2. Show where are the type and schema of the database defined
+## How is the type and schema of the database defined
 
 Running the command `yarn rw prisma migrate dev` results with the following information to console:
 
@@ -201,25 +201,8 @@ This step created the database as a SQLite database at "file:./dev.db" (check [G
 
 ___
 
-### 3. Replace the SQLite with Postgresql database
+## Replacing the SQLite with Postgresql database
 
-We already named the app to be `redwood-tutorial-postgresql`, so the app we are building will have the correct name. To switch the database we need to edit definition of the provider variable in the file [schema.prisma](https://github.com/redwoodjs/redwood-tutorial/blob/main/api/db/schema.prisma) to be:
 
-```
-datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
-}
-```
-
-The format of the  (a PostgreSQL connection URL) is:
-
-`postgresql://USER:PASSWORD@HOST:PORT/DATABASE`
-
-So, "DATABASE_URL" enviroment variable (for our locally installed database) is:
-
-```
-DATABASE_URL=postgresql://rwadmin:my-secret-password@localhost:5432/redwood-blog
-```
 ___
 ___

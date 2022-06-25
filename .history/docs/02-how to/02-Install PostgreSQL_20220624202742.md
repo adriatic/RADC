@@ -115,7 +115,7 @@ Start by launching the pgAdmin tool (it was added to the launchpad during the Po
 </p>
 <br/>
 
-Then create a new postgresql database
+Then
 
 <p align="center">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/175750162-b513e189-f34c-47fe-905b-77549d35896f.png"/>
@@ -146,7 +146,7 @@ ___
 
 ## verification of the database installation correctness
 
-To verify the correct PostgresQL installation we will use a well-known [Redwood Blog Application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) and modify it to use PostgreSQL database instead of the default SQLIte). We will do this in following several steps
+To verify the correct PostgresQL installation we will use a well-known [Redwood Blog Application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) and modify it to use PostgreSQL database instead of the default SQLIte). We will do this in several steps
 
 ### 1. Create the [Example Repo application (aka Redwood Blog)](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended)
 
@@ -203,7 +203,7 @@ ___
 
 ### 3. Replace the SQLite with Postgresql database
 
-We already named the app to be `redwood-tutorial-postgresql`, so the app we are building will have the correct name. To switch the database we need to edit definition of the provider variable in the file [schema.prisma](https://github.com/redwoodjs/redwood-tutorial/blob/main/api/db/schema.prisma) to be:
+We already named the app to be `redwood-tutorial-postgresql`, so the app we are build will have the correct name. To switch the database we need to edit definition of the provider variable in the file [schema.prisma](https://github.com/redwoodjs/redwood-tutorial/blob/main/api/db/schema.prisma) to be:
 
 ```
 datasource db {
@@ -212,14 +212,8 @@ datasource db {
 }
 ```
 
-The format of the  (a PostgreSQL connection URL) is:
+The format of the "DATABASE_URL" enviroment variable (for our locally installed database)
 
-`postgresql://USER:PASSWORD@HOST:PORT/DATABASE`
-
-So, "DATABASE_URL" enviroment variable (for our locally installed database) is:
-
-```
-DATABASE_URL=postgresql://rwadmin:my-secret-password@localhost:5432/redwood-blog
-```
+DATABASE_URL=postgresql://postgres:0000@localhost:5432/mydb
 ___
 ___
