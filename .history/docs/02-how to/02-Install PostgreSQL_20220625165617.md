@@ -152,7 +152,7 @@ Note that the reference button does not show on this screenshot. Click on that b
 
 ___
 
-## Verify the database installation correctness
+## verification of the database installation correctness
 
 To verify the correct PostgresQL installation we will use a well-known [Redwood Blog Application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) and modify it to use PostgreSQL database instead of the default SQLIte). We will do this in following several steps
 

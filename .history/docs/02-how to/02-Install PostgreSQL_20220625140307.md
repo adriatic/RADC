@@ -1,11 +1,11 @@
 ---
-    title: Install PostgreSQL with EDB Installer
+    title: Install PostgreSQL
 ---
 
 #### By `adriatic`
 
-<p align="center">
-<img width="100" alt="image" src="https://user-images.githubusercontent.com/2712405/175789661-7c9aab7b-9348-43d1-8b57-ccbf6e3385ae.png"/>
+<p align="left">
+<img width="80" alt="image" src="https://user-images.githubusercontent.com/2712405/169575412-041fa3e9-0fb6-4550-8599-1c056b32fc32.png"/>
 <br/>
 </p>
 
@@ -14,8 +14,7 @@ ___
 ## Summary
 
 - Use the article [Installing PostgreSQL with the Graphical Installation Wizard](https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/) combined with the original [PostgreSQL documentation](https://www.postgresql.org/docs) to show how to install PostgreSQL locally on MacOS.
-  
-- Verify this intallation by changing the [Example Repo](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) (Redwood Blog Application) build process to use the local postgreSQL repository.
+- Verify this intallation by changing the [Example Repo](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) to use the local postgreSQL repository.
 
 ___
 
@@ -47,13 +46,6 @@ Fetch the installed from the [PostgreSQL EDB (enterprise db)](https://www.enterp
 <br/>
 
 The downloaded file is `postgresql-14.4-1-osx.dmg` (size 303.2 MB).
-
-<p align="center">
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/2712405/175789661-7c9aab7b-9348-43d1-8b57-ccbf6e3385ae.png"/>
-<br/>
-<b></b>
-</p>
-<br/>
 
 ___
 
@@ -152,7 +144,7 @@ Note that the reference button does not show on this screenshot. Click on that b
 
 ___
 
-## Verify the database installation correctness
+## verification of the database installation correctness
 
 To verify the correct PostgresQL installation we will use a well-known [Redwood Blog Application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) and modify it to use PostgreSQL database instead of the default SQLIte). We will do this in following several steps
 

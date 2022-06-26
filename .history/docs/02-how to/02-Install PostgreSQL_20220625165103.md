@@ -15,6 +15,13 @@ ___
 
 - Use the article [Installing PostgreSQL with the Graphical Installation Wizard](https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/) combined with the original [PostgreSQL documentation](https://www.postgresql.org/docs) to show how to install PostgreSQL locally on MacOS.
   
+<p align="center">
+<img width="270" alt="image" src="https://user-images.githubusercontent.com/2712405/175785510-9d360ef3-55ea-4d53-ae15-35df42ca7a25.png"/>
+<br/>
+<b></b>
+</p>
+<br/>
+  
 - Verify this intallation by changing the [Example Repo](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) (Redwood Blog Application) build process to use the local postgreSQL repository.
 
 ___
@@ -152,7 +159,7 @@ Note that the reference button does not show on this screenshot. Click on that b
 
 ___
 
-## Verify the database installation correctness
+## verification of the database installation correctness
 
 To verify the correct PostgresQL installation we will use a well-known [Redwood Blog Application](https://redwoodjs.com/docs/tutorial/intermission#using-the-example-repo-recommended) and modify it to use PostgreSQL database instead of the default SQLIte). We will do this in following several steps
 
