@@ -41,30 +41,30 @@ My setup is a mess, how do I restart? You can follow the instructions [here](htt
 
 Ok, now that we know we're going to buy an Island in the Pacific very soon, we need to divide and conquer and figure out what are the different steps going to be:
 
-[Part 1:](https://rw-community.org/how%20to/Develop%20stripe/Part%201)
+[Part 1:](/how%20to/Develop%20stripe/Part%201)
 
 - Setup & Authentication
 - List Subscriptions
 - Subscribe
 
-[Part 2:](https://rw-community.org/how%20to/Develop%20stripe/Part%202)
+[Part 2:](/how%20to/Develop%20stripe/Part%202)
 
 - View my subscription
 - Cancel or change my subscription
 - Add products
 - List products by category
 
-[Part 3:](https://rw-community.org/how%20to/Develop%20stripe/Part%203)
+[Part 3:](/how%20to/Develop%20stripe/Part%203)
 
 - Buy products
 - Show if I own a product
 
-[Part 4:](https://rw-community.org/how%20to/Develop%20stripe/Part%204)
+[Part 4:](/how%20to/Develop%20stripe/Part%204)
 
 - Seller payouts (minus platform fee)
 - Check subscription validity
 
-[Part 5:](https://rw-community.org/how%20to/Develop%20stripe/Part%205)
+[Part 5:](/how%20to/Develop%20stripe/Part%205)
 
 - (admin) Payment list
 - (admin) Sellers list and Sales
