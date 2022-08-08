@@ -36,7 +36,7 @@ Your browser should automatically open to http://localhost:8910 where you'll see
 
 ## Prisma and the database
 
-Redwood wouldn't be a full-stack framework without a database. It all starts with the schema. Open the [`schema.prisma`](api/db/schema.prisma) file in `api/db` and replace the `UserExample` model with the following `Post` model:
+Redwood wouldn't be a full-stack framework without a database. It all starts with the schema. The [`schema.prisma`](https://github.com/generalui/redwood-stripe/blob/main/part1/api/db/schema.prisma) file in `api/db` shows the final version where the original `UserExample` model is replaced with the following `Post` model:
 
 ```
 model Post {
