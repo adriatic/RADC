@@ -10,8 +10,8 @@ const config = {
   tagline: 'Redwood Community Docs',
   url: 'https://rw-community.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'github.com/adriatic', // Usually your GitHub org/user name.
   projectName: 'RADC', // Usually your repo name.
@@ -73,7 +73,7 @@ const config = {
       footer: {
         style: 'dark',
  
-        copyright: `Copyright © ${new Date().getFullYear()} RADC, built with Docusaurus on May 29, 2022` 
+        copyright: `Copyright © ${new Date().getFullYear()} RADC, built with Docusaurus on Aug 8, 2022` 
       },
       prism: {
         theme: lightCodeTheme,
