@@ -1,12 +1,12 @@
 ---
-    title: Part 1
+    title: "Part 1"
 ---
 
 ## Prerequisites
 
 ### nvm and node
 
-At the time of writting, redwood requires node version < 17. So if you don't have it already, install the latest node v16 version on your machine (I recommend using [nvm](https://github.com/nvm-sh/nvm) to manage your node versions)
+At the time of this writing, redwood requires node version < 17. So if you don't have it already, install the latest node v16 version on your machine (I recommend using [nvm](https://github.com/nvm-sh/nvm) to manage your node versions)
 
 ```bash
 nvm install v16.15.1
@@ -18,10 +18,11 @@ nvm use v16.15.1
 
 `npm install -g yarn`
 
-## postgres
+### postgres
 
-`brew install postgres` on mac os in which case [this page](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3) can be useful, otherwise you can look up [postgres download page](https://www.postgresql.org/download/)
-Another option is to use [docker](https://docs.docker.com/get-started/) (that's what I am using), here is the docker compose file you can use:
+- RedwoodJS online docs have a chapter on [Local Postgres Setup](https://redwoodjs.com/docs/local-postgres-setup#install-postgres) for both MacOS and Windows platforms. The instruction `brew install postgres` on mac is documented on [this page](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3) can be useful, finally you can look up the doc [Install PostgreSQL with EDB Installer](https://rw-community.org/how%20to/Install%20PostgreSQL) in [RedwoodJS Community Library](https://rw-community.org/)
+
+- Another option is to use [docker](https://docs.docker.com/get-started/) (that's what I am using), here is the docker compose file you can use:
 
 ```yml
 version: '3.1'
@@ -42,6 +43,7 @@ services:
 
 And then `docker-compose up -d`
 
+---
 ## Setup & Authentication
 
 ### Setup
@@ -92,14 +94,17 @@ model User {
 A few fields we're adding here:
 
 - **stripeClientSecret**: When we will initiate a payment intent this value is going to be needed in the front end to authenticate the transaction. But we also save it in the backend until stripe calls the stripe webhook endpoint with a `payment_intent.succeeded` event (or a `payment_intent.payment_failed`) in which case we can update the `subscriptionStatus` accordingly and delete the `stripeClientSecret` because it should not be reused
+
 - **subscriptionName**: Keeps track of which kind of subscription the user has
+
 - **roles**: We're not adding this one, but we're using it. It will contain the value `seller` to mark users that have a subscription and can sell stuff on our platform
+
 - **subscriptionStatus**: Keeps track of whether the user paid his subscription or not
 
 Generate a session secret
 `yarn rw generate secret`
 
-Setup db connection in .env:
+Setup db connection in .env: (_note the string `example` is the password._)
 
 ```
 DATABASE_URL=postgresql://postgres:example@localhost/redwoodstripe
@@ -107,8 +112,13 @@ SESSION_SECRET=<ouput from yarn rw generate secret>
 NODE_ENV=development
 ```
 
-Creare migration and user db table and call it whatever you want but `initial migration` makes up for a good name for this ... initial migration
+### Initial database migration
+
+Create migration and user db table and call it whatever you want but `initial migration` makes up for a good name for this ... initial migration
+
 `yarn rw prisma migrate dev`
+
+### See your app for the first time
 
 Fire up the dev server
 `yarn rw dev`
@@ -172,7 +182,10 @@ handler: ({ username, hashedPassword, salt, userAttributes }) => {
   })
 },
 ```
+At this point we finshed the base RedwoodJS app, provisioned with Authentication. Integration with [Stripe](https://stripe.com/) comes next.
 
+---
+---
 ## List Subscriptions
 
 We're now starting our first real task, so first step back and look up the internet if someone, maybe, has already done that and has a neat github repo to copy paste. The internet is a magical place and such repo indeed exists, and David Price himself contributed to it. I invite you to try to this redwood/stripe example [here](https://github.com/redwoodjs/example-store-stripe) and there is even a live demo [here](https://superstore-redwood-stripe.netlify.app/)
