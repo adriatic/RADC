@@ -11,19 +11,26 @@
 
 ---
 
-# Warning - this document is a work in progress
+:::danger
 
+This document is a work in progress - do not use it for the purpose it is being created
+
+:::
 ## Summary
 
 This article is a tutorial on creating a Redwood app that uses Stripe [Checkout](https://stripe.com/payments/checkout) and [Elements](https://stripe.com/payments/elements) product in a [fictituous context](https://dashboard.stripe.com/test/products?active=true) created to expose Stripe features without any security risks. Note: click on that link requires an existing Stripe account; the tutorial explains how to create one.
 
-Since this tutorial is rather large, an Index is provided to simplify moving to different sections of the tutorial.
+Since this tutorial is rather large, an Index will be provided to simplify moving to different sections of the tutorial.
 
 ---
 
-## Index 
+## Index
+
+:::info
 
 ... under development
+
+:::
 
 ---
 
@@ -31,9 +38,17 @@ Since this tutorial is rather large, an Index is provided to simplify moving to 
 
 **Who never wanted to build a marketplace for [fill in the blank]?**
 
-The goal of this tutorial is do that using redwood and stripe, if you want the low down about redwood, spend 100 seconds watching [this video](https://youtu.be/o5Mwa_TJ3HM) and if you are left wondering, but why redwood rather than some other framework? Then, I suggest you look at the [why redwood rather than some other framework?](https://community.redwoodjs.com/t/but-why-redwood-rather-than-some-other-framework-remix-blitz-vue-nextjs-gatsby-sveltekit-11ty-nuxtjs/2957) page! Basically Redwoodjs is your medicine against js tech stack fatigue.
+The goal of this tutorial is to illustrate how to use [RedwoodJS](https://redwoodjs.com/) and [Stripe](https://stripe.com/) in the context of building an app that facilitates the payments infrastructure for the internet. Stripe's mission and motto is
 
-The goal of this tutorial is to create a boilerplate application that is using the stripe API to build a marketplace with subscriptions. Yes, each seller is going to need to buy a subscription to be able to sell on our platform. We're a greedy bunch. Note that this tutorial is not about making things pretty, nevertheless we will be using tailwind to add css classes for the layout, we will not comment on this, you can look up what the classes are doing [here](https://tailwindcss.com/).
+:::note
+
+Millions of companies of all sizes—from startups to Fortune 500s—use Stripe’s software and APIs to accept payments, send payouts, and manage their businesses online.
+
+:::
+
+ If you want the low down about RedwoodJS, spend 100 seconds watching [this video](https://youtu.be/o5Mwa_TJ3HM) If you are left wondering why RedwoodJS rather than some other framework, I suggest you to have a look at the [why redwood rather than some other framework?](https://community.redwoodjs.com/t/but-why-redwood-rather-than-some-other-framework-remix-blitz-vue-nextjs-gatsby-sveltekit-11ty-nuxtjs/2957) page, written by Redwood's core team member David Thyresson. Basically Redwoodjs is your medicine against javascript tech stack fatigue.
+
+More specifically, this tutorial shows how to create a boilerplate application that is using the stripe API to build a marketplace with subscriptions. Yes, each seller is going to need to buy a subscription to be able to sell on our platform. We're a greedy bunch. Note that this tutorial is not about making things pretty, nevertheless we will be using tailwind to add css classes for the layout, we will not comment on this, you can look up what the classes are doing [here](https://tailwindcss.com/).
 
 Note: We'll be using Typescript for this tutorial, it doesn't mean that you have to use it. You could strip out the typescript parts and use the `yarn create redwood-app` without the `--ts` option, I won't judge you. Other people might...
 
