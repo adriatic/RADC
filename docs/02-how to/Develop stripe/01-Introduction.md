@@ -11,8 +11,6 @@
 
 ---
 
-
-:::
 ## Summary
 
 This article is a tutorial on creating a Redwood app that uses Stripe [Checkout](https://stripe.com/payments/checkout) and [Elements](https://stripe.com/payments/elements) product in a [fictituous context](https://dashboard.stripe.com/test/products?active=true) created to expose Stripe features without any security risks. Note: click on that link requires an existing Stripe account; the tutorial explains how to create one.
