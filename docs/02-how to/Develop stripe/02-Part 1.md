@@ -938,7 +938,7 @@ Go to http://localhost:8910/pick-subscription and pick a subscription, fill out 
 
 ![pay subscription](../../../screenshots/part1-2.png)
 
-## Let the server know about the new subscription: Stripe Webhooks
+#### Let the server know about the new subscription: Stripe Webhooks
 
 Let's create a serverless function that will handle events coming from stripe directly
 
