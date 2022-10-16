@@ -62,7 +62,6 @@ Note also that the Sources panel is selected on the top menu bar.
 <b>Image 4 - Four important areas of the sources panel used in app debugging </b>
 </p>
 <br/>
-
 ## Area **1** 
 shows the application tree view in two formats ***Authored** and **Deployed**. We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
 
