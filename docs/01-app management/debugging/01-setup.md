@@ -42,7 +42,7 @@ Having the Redwood Blog app running in the browser (Image 1, above), invoke the 
 </p>
 <br/>
 
-Click on the Devtools settings then select the Experiments category and click the "Group sources into Authored and Deployed trees" checkbox, as shown on the image 3 below:
+Click on the Devtools settings icon, then select the Experiments category and click the "Group sources into Authored and Deployed trees" checkbox, as shown on the image 3 below:
 
 <p align="center">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/196014827-d2b87557-faa2-4e14-9461-49ded24f513d.png"/>
@@ -89,4 +89,8 @@ This is the browser, partially hidden behind the DevTools panel.
 
 <br/>
 
-WIP ...
+<p align="left">
+<img width="80" alt="image" src="https://user-images.githubusercontent.com/2712405/169575412-041fa3e9-0fb6-4550-8599-1c056b32fc32.png"/>
+<br/>
+</p>
+
