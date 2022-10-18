@@ -63,6 +63,7 @@ Note also that the Sources panel is selected on the top menu bar.
 <br/>
 
 ### Area **1** 
+
 shows the application tree view in two formats ***Authored** and **Deployed**. We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
 
 ### Area **2** 
