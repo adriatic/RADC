@@ -28,7 +28,7 @@ resulting with the front end of the Redwood Blog application running in the brow
 
 ---
 
-### 2. Setup the (Chrome) DevTools debugger
+## 2. Setup the (Chrome) DevTools debugger
 
 We are introducing the latest approach available since August 2022 which greatly simplifies access to [Authored and Deployed code](https://developer.chrome.com/blog/devtools-modern-web-debugging/#authored-versus-deployed-code)
 as explained in the article [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/).
@@ -61,12 +61,13 @@ Note also that the Sources panel is selected on the top menu bar.
 <b>Image 4 - Four important areas of the sources panel used in app debugging </b>
 </p>
 <br/>
-## Area **1** 
+
+### Area **1** 
 shows the application tree view in two formats ***Authored** and **Deployed**. We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
 
-## Area **2** 
+### Area **2** 
 depicts the source code view of the item selected in the application tree view (**Area 1**). The source code is rendered as originaly written Javascript / Typescript code. 
-## Area **3** 
+### Area **3** 
 presents the detailed information about the context of the currently hit breakpoint:
 
 - list of defined watch variables
@@ -78,10 +79,12 @@ presents the detailed information about the context of the currently hit breakpo
 - list of global listeners
 - list of event listeners breakpoints
 - list of CSP violation breakpoints
-## Area **4**
+### Area **4**
 This is the browser, partially hidden behind the DevTools panel.
 
-### 3. DevTools debugger example of use
+---
+
+## 3. DevTools debugger example of use
 
 Let's finish this Setup DevTools debugger by presentig a snapshot from the example debugging session where we want to step through the BlogLayout.js layout component. In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
 
