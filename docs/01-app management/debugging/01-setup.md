@@ -47,12 +47,11 @@ Click on the Devtools settings icon, then select the Experiments category and cl
 <p align="center">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/196014827-d2b87557-faa2-4e14-9461-49ded24f513d.png"/>
 <br/>
-<b>Image 3 - select Group sources into Authored and Deployed trees</b>
+<b>Image 3 - select "Group sources into Authored and Deployed trees"</b>
 </p>
 <br/>
 
-
-Note: the browser panel with Redwood Blog is placed next to the devtools panel only as a convenience (so you can restart the application for example). Having just a single monitor, you can do everything on the devtools panel alone (closing the browser). Alternatively the layout shown on the image 4 below, shows the browser panel mostly covered by the DevTool panel.
+Note: the browser panel with Redwood Blog is placed next to the devtools panel only as a convenience (so you can switch to the browser window and restart the application for example). Having just a single monitor, you can do everything on the devtools panel alone (closing the browser). Alternatively the layout shown on the image 4 below, shows the browser panel mostly covered by the DevTool panel.
 
 Note also that the Sources panel is selected on the top menu bar.
 
@@ -82,10 +81,48 @@ presents the detailed information about the context of the currently hit breakpo
 ## Area **4**
 This is the browser, partially hidden behind the DevTools panel.
 
+### 3. DevTools debugger example of use
+
+Let's finish this Setup DevTools debugger by presentig a snapshot from the example debugging session where we want to step through the BlogLayout.js layout component. In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
+
+<p align="center">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196282692-b6740f8a-dc77-4aa1-8c3b-9978a96e5fa9.png"/>
+<br/>
+<b>Image 5 - example debugging BlogLayout.js component </b>
+</p>
+<br/>
+
+Red marker 1 shows the **authored** source tree, with the component `BlogLayout.js` presented in the source panel (red marker 2). Note that the only breakpoint is set at line 57, which is also shown i the breakpoints list (red marker 3). Lastly the top of the right panel (detailed information about the context of the currently hit breakpoint) states that the debugger is paused (becuse it hit the breakpoint at line 57). 
+
+The next three screenshots show the Local scope, the Closure and Global scope at this breakpoint
+
+<p align="center">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196292853-5c353186-095e-4a04-8f90-7f1bbf871c7c.png"/>
+<br/>
+<b>Image 6 - Local scope </b>
+</p>
+<br/>
+
+<p align="center">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196293625-86da4e4d-079a-4c1b-b833-1116f61da7a7.png"/>
+<br/>
+<b>Image 7 - Closure </b>
+</p>
+<br/>
+
+<p align="center">
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196308749-ca52dbaf-d28b-41ac-95b6-6632e39490fa.png"/>
+<br/>
+<b>Image 8 - Global scope </b>
+</p>
+<br/>
+
+In addition to this information we could define a set of watch variables, watch / breakpoint on threads, set DOM breakpoints, XHR/fetch breakpoints, set Event listener breakpoints and few other pieces of information
+
 ---
 ---
 
-### 3. Setup Visual Studio Code debugger
+### 4. Setup Visual Studio Code debugger
 
 <br/>
 
@@ -93,4 +130,5 @@ This is the browser, partially hidden behind the DevTools panel.
 <img width="80" alt="image" src="https://user-images.githubusercontent.com/2712405/169575412-041fa3e9-0fb6-4550-8599-1c056b32fc32.png"/>
 <br/>
 </p>
+
 
