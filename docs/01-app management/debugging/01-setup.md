@@ -126,7 +126,7 @@ In addition to this information we could define a set of watch variables, watch 
 ---
 ---
 
-### 4. Setup Visual Studio Code debugger
+## 4. Setup Visual Studio Code debugger
 
 <br/>
 
