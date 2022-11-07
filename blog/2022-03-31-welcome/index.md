@@ -7,7 +7,7 @@ tags: [redwood, application, development, cookbook]
 
 **R**edwood **A**pplication **D**evelopment **C**ookbook (RADC) is the project trying to engage volunteers from RedwoodJS fans -- mostly application developers that selected RedwoodJS as their favorite framework, after acquiring the experience and enthusiasm provided by one of the best [Tutorial](https://redwoodjs.com/docs/tutorial/foreword)s in the industry.
 
-There are several good reasons to structure RADC as an extenstion of the Tutorial:
+There are several good reasons to structure RADC as an extension of the Tutorial:
 
 - Most of the RWJS newcomers will find the Tutorial so good that will feel encouraged to start using the framework for a real project. Despite already stating that the Tutorial is terrific, we wanted to provide more articles explaining the RWJS behavior in a more "real world". So, this additional information describes the use of the various developer's tools applied to the "real world" application developed in the course of following the Tutorial. This application is named Redwood Blog and is made available in its source form as [Redwood-tutorial](https://github.com/redwoodjs/redwood-tutorial). So most of the initial articles in this cookbook start where the RWJS tutorial ends, by further expanding the knowledge from the Tutorial.
 
