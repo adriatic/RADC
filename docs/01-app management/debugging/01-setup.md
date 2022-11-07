@@ -53,7 +53,7 @@ Click on the Devtools settings icon, then select the Experiments category and cl
 
 **Note**: the browser panel with Redwood Blog is placed next to the devtools panel only as a convenience (so you can switch to the browser window and restart the application for example). Having just a single monitor, you can do everything on the devtools panel alone (closing the browser). Alternatively the layout shown on the image 4 below, shows the browser panel mostly covered by the DevTool panel.
 
-**Note:** the **[Sources panel](https://developer.chrome.com/docs/devtools/sources/)** is selected on the top menu bar (make sure to learn about all new features available, like [view files](), [edit CSS and JavaScript](), [Create, save, and run Snippets](https://developer.chrome.com/docs/devtools/sources/#snippets) and [Set up a Workspace](https://developer.chrome.com/docs/devtools/sources/#workspace).
+**Note:** the **[Sources panel](https://developer.chrome.com/docs/devtools/sources/)** is selected on the top menu bar (make sure to learn about all new features available, like [view files](https://developer.chrome.com/docs/devtools/sources/#files), [edit CSS and JavaScript](https://developer.chrome.com/docs/devtools/sources/#edit), [Create, save, and run Snippets](https://developer.chrome.com/docs/devtools/sources/#snippets) and [Set up a Workspace](https://developer.chrome.com/docs/devtools/sources/#workspace).
 
 <p align="center">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/196050087-a8d60006-7347-4152-b5e0-be2a9a9520a3.png"/>
