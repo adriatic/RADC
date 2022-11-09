@@ -28,7 +28,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
   
         },
         theme: {
