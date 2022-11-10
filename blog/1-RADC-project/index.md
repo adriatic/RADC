@@ -1,6 +1,7 @@
 ---
-slug: welcome
 title: About RADC project
+description: RADC project description
+slug: welcome
 authors: [adriatic]
 tags: [redwood, application, development, cookbook]
 ---

@@ -11,8 +11,8 @@ export default function FooterWrapper(props) {
         category="General"
         categoryId="DIC_kwDOHXU2Gc4CSZzR"
         mapping="pathname"
-        reactionsEnabled="0"
-        emitMetadata="0"
+        reactionsEnabled="1"
+        emitMetadata="1"
         theme="dark"
       />
       <Footer {...props} />
