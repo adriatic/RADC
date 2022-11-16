@@ -18,7 +18,6 @@ yarn rw dev
 ```
 
 resulting with the front end of the Redwood Blog application running in the browser
-
 <p align="center">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/196008009-7aa88b67-0470-46ef-a7b6-a0167cda06bc.png"/>
 <br/>
@@ -60,15 +59,14 @@ Click on the Devtools settings icon, then select the Experiments category and cl
 <br/>
 <b>Image 4 - Four important areas of the sources panel used in app debugging </b>
 </p>
-<br/>
 
-### Area **1** 
 
+#### Area 1 
 shows the application tree view in two formats ***Authored** and **Deployed**. We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
 
-### Area **2** 
+#### Area 2
 depicts the source code view of the item selected in the application tree view (**Area 1**). The source code is rendered as originaly written Javascript / Typescript code. 
-### Area **3** 
+### Area 3 
 presents the detailed information about the context of the currently hit breakpoint:
 
 - list of defined watch variables
@@ -80,12 +78,12 @@ presents the detailed information about the context of the currently hit breakpo
 - list of global listeners
 - list of event listeners breakpoints
 - list of CSP violation breakpoints
-### Area **4**
-This is the browser, partially hidden behind the DevTools panel.
+#### Area 4
+This is the browser rendering the app, partially hidden behind the DevTools panel.
 
 ---
 
-## 3. DevTools debugger example of use
+### 3. DevTools debugger example of use
 
 Let's finish this Setup DevTools debugger by presentig a snapshot from the example debugging session where we want to step through the BlogLayout.js layout component. In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
 
