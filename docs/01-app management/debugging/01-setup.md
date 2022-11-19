@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: Setup actions
 ---
 
 ## 1. Prepare the debugging target
@@ -25,9 +25,10 @@ resulting with the front end of the Redwood Blog application running in the brow
 </p>
 <br/>
 
+
 ---
 
-## 2. Setup the (Chrome) DevTools debugger
+## 2. Setup the Chrome debugger
 
 We are introducing the latest approach available since August 2022 which greatly simplifies access to [Authored and Deployed code](https://developer.chrome.com/blog/devtools-modern-web-debugging/#authored-versus-deployed-code)
 as explained in the article [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/).
@@ -66,7 +67,7 @@ shows the application tree view in two formats ***Authored** and **Deployed**. W
 
 #### Area 2
 depicts the source code view of the item selected in the application tree view (**Area 1**). The source code is rendered as originaly written Javascript / Typescript code. 
-### Area 3 
+#### Area 3 
 presents the detailed information about the context of the currently hit breakpoint:
 
 - list of defined watch variables
@@ -83,7 +84,7 @@ This is the browser rendering the app, partially hidden behind the DevTools pane
 
 ---
 
-### 3. DevTools debugger example of use
+## 3. Example of use
 
 Let's finish this Setup DevTools debugger by presentig a snapshot from the example debugging session where we want to step through the BlogLayout.js layout component. In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
 
@@ -119,12 +120,11 @@ The next three screenshots show the Local scope, the Closure and Global scope at
 </p>
 <br/>
 
-In addition to this information we could define a set of watch variables, watch / breakpoint on threads, set DOM breakpoints, XHR/fetch breakpoints, set Event listener breakpoints and few other pieces of information
+In addition to this information we could define a set of watch variables, watch / breakpoint on threads, set DOM breakpoints, XHR/fetch breakpoints, set Event listener breakpoints and few other pieces of information. The section on using the Chrome debugger for tracing Authentication code in our [debugging target](https://rw-community.org/app%20management/debugging/setup#1-prepare-the-debugging-target) application provides more details on using these debugger features. 
 
 
 TODO
 
-Show the relevant info from https://developer.chrome.com/docs/devtools/sources/ at the begining of this setup when making a reference to the sources panl of DevTools.
 
 ---
 
