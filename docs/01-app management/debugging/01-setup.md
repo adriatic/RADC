@@ -86,7 +86,7 @@ This is the browser rendering the app, partially hidden behind the DevTools pane
 
 ## 3. Example of use
 
-Let's finish this Setup DevTools debugger by presentig a snapshot from the example debugging session where we want to step through the BlogLayout.js layout component. In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
+Let's finish this Setup DevTools debugger section by showing hot to set a breakpoint in the [BlogLayout.js layout component](https://github.com/adriatic/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js). In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
 
 <p align="center">
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196282692-b6740f8a-dc77-4aa1-8c3b-9978a96e5fa9.png"/>
@@ -131,6 +131,8 @@ TODO
 ---
 
 ## 4. Setup Visual Studio Code debugger
+
+## 5. Example if use
 
 <br/>
 
