@@ -1,5 +1,5 @@
 ---
-title: Setup actions
+title: Setup
 ---
 
 ## 1. Prepare the debugging target
