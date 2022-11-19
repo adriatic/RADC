@@ -132,7 +132,7 @@ TODO
 
 ## 4. Setup Visual Studio Code debugger
 
-## 5. Example if use
+## 5. Example of use
 
 <br/>
 
