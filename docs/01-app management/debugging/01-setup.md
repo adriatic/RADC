@@ -62,23 +62,31 @@ Click on the Devtools settings icon, then select the Experiments category and cl
 </p>
 <br/>
 
-**Note**: the browser panel with Redwood Blog is placed next to the devtools panel only as a convenience (so you can switch to the browser window and restart the application for example). Having just a single monitor, you can do everything on the devtools panel alone (closing the browser). Alternatively the layout shown on the image 4 below, shows the browser panel mostly covered by the DevTool panel.
+---
 
-**Note:** the **[Sources panel](https://developer.chrome.com/docs/devtools/sources/)** is selected on the top menu bar (make sure to learn about all new features available, like [view files](https://developer.chrome.com/docs/devtools/sources/#files), [edit CSS and JavaScript](https://developer.chrome.com/docs/devtools/sources/#edit), [Create, save, and run Snippets](https://developer.chrome.com/docs/devtools/sources/#snippets) and [Set up a Workspace](https://developer.chrome.com/docs/devtools/sources/#workspace).
+## 2. Definition of a typical session (Image 4 below)
+
+The Terminal (Red marker 1, left-most) is nearly completely hidden, since we will not use it once the Blog app is started (`yarn rw dev`). Similarly, the Browser (Red marker 2) exposes only the "Reload this page" button, that will be used whenever we want to restart the debug session.
+The layout shown on the image 4 below, renders the browser panel mostly covered by the DevTool panel, where all debugging action takes place
+
+**Note:** the green rectangle marked **[Sources panel](https://developer.chrome.com/docs/devtools/sources/)**  is selected on the top Devtools menu bar. In order to ensure maximim benefits of the Chrome Debugger (Devtoos) learn about all new features available, like [view files](https://developer.chrome.com/docs/devtools/sources/#files), [edit CSS and JavaScript](https://developer.chrome.com/docs/devtools/sources/#edit), [Create, save, and run Snippets](https://developer.chrome.com/docs/devtools/sources/#snippets) and [Set up a Workspace](https://developer.chrome.com/docs/devtools/sources/#workspace).
 
 <p align="center">
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/196050087-a8d60006-7347-4152-b5e0-be2a9a9520a3.png"/>
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/2712405/208320772-3bd7e7e3-8996-4d1b-a78e-0980426c373c.png"/>
 <br/>
-<b>Image 4 - Four important areas of the sources panel used in app debugging </b>
+<b>Image 4</b>
 </p>
+<br/>
 
+**Area 1** (Green marker 4) <br/>
+Shows the application tree view in two structures - **Authored** and **Deployed**. We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
 
-#### Area 1 
-shows the application tree view in two formats ***Authored** and **Deployed**. We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
+**Area 2** (Green marker 5) <br/>
+Debugger rendering of the selected code (`Article.js`) in the Authored view (Green marker 4) section of the source tree. 
 
-#### Area 2
 depicts the source code view of the item selected in the application tree view (**Area 1**). The source code is rendered as originaly written Javascript / Typescript code. 
-#### Area 3 
+
+**Area 3** (Green marker 6) <br/>
 presents the detailed information about the context of the currently hit breakpoint:
 
 - list of defined watch variables
@@ -86,12 +94,10 @@ presents the detailed information about the context of the currently hit breakpo
 - current application scope
 - call stack
 - list of enabled XMR/fetch breakpoints
-- list DOM breakpoints
+- list of DOM breakpoints
 - list of global listeners
 - list of event listeners breakpoints
 - list of CSP violation breakpoints
-#### Area 4
-This is the browser rendering the app, partially hidden behind the DevTools panel.
 
 ---
 
