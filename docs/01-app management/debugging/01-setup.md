@@ -30,8 +30,19 @@ resulting with the front end of the Redwood Blog application running in the brow
 
 ## 2. Setup the Chrome debugger
 
-We are introducing the latest approach available since August 2022 which greatly simplifies access to [Authored and Deployed code](https://developer.chrome.com/blog/devtools-modern-web-debugging/#authored-versus-deployed-code)
-as explained in the article [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/).
+We are describing the latest approach available since August 2022 which greatly simplifies access to [Authored and Deployed code](https://developer.chrome.com/blog/devtools-modern-web-debugging/#authored-versus-deployed-code)
+as explained in the article [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/). We will use the setup depicted below, and explained immediately after:
+
+<p align="center">
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/2712405/208278318-8de94e4e-65a4-4835-b92a-7b4fbe49d74c.png"/>
+<br/>
+<b>Image 1:</b> <br/>
+Invoking `yarn rw dev` in the terminal (Red marker 1)<br/>
+starts the browser running the blog app (Red marker 2)<br/>
+Devtools panel (Red marker 3) started as explained below<br/>
+
+</p>
+<br/>
 
 Having the Redwood Blog app running in the browser (Image 1, above), invoke the DevTools from the browser menu by pressing the F12 key (the DevTools panel is set to be outside and on the left the browser window as shown on the image 2)
 
