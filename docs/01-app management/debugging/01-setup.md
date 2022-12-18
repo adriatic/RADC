@@ -44,7 +44,7 @@ Devtools panel (Red marker 3) started as explained below<br/>
 </p>
 <br/>
 
-Having the Redwood Blog app running in the browser (Image 1, above), invoke the DevTools from the browser menu by pressing the F12 key (the DevTools panel is set to be outside and on the left the browser window as shown on the image 2)
+Having the Redwood Blog app running in the browser (Image 1, above), invoke the DevTools from the browser menu by pressing the F12 key (the DevTools panel is set to be outside and on the left of the browser window, as shown on the image 2)
 
 <p align="center">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/2712405/196010017-9ea1b9c8-4165-44fd-93d2-8913bc57fa16.png"/>
