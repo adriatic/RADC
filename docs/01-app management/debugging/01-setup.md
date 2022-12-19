@@ -64,7 +64,7 @@ Click on the Devtools settings icon, then select the Experiments category and cl
 
 ---
 
-## 2. Definition of a typical session (Image 4 below)
+## 3. Definition of a typical session (Image 4 below)
 
 The Terminal (Red marker 1, left-most) is nearly completely hidden, since we will not use it once the Blog app is started (`yarn rw dev`). Similarly, the Browser (Red marker 2) exposes only the "Reload this page" button, that will be used whenever we want to restart the debug session.
 The layout shown on the image 4 below, renders the browser panel mostly covered by the DevTool panel, where all debugging action takes place
@@ -101,7 +101,7 @@ presents the detailed information about the context of the currently hit breakpo
 
 ---
 
-## 3. Example of use
+## 4. Example of use
 
 Let's finish this Setup DevTools debugger section by showing hot to set a breakpoint in the [BlogLayout.js layout component](https://github.com/adriatic/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js). In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
 
@@ -147,9 +147,9 @@ TODO
 
 ---
 
-## 4. Setup Visual Studio Code debugger
+## 5. Setup Visual Studio Code debugger
 
-## 5. Example of use
+## 6. Example of use
 
 <br/>
 
