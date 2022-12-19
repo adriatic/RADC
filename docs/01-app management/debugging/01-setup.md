@@ -103,41 +103,35 @@ presents the detailed information about the context of the currently hit breakpo
 
 ## 4. Example of use
 
-Let's finish this Setup DevTools debugger section by showing hot to set a breakpoint in the [BlogLayout.js layout component](https://github.com/adriatic/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js). In order to illustrate the stepping process, we will set the brekpoint at the [line 57](https://github.com/redwoodjs/redwood-tutorial/blob/main/web/src/layouts/BlogLayout/BlogLayout.js#L57). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
+Let's finish this Setup Chrome DevTools debugger section by showing how to set a breakpoint in the [Article.js component](https://github.com/adriatic/redwood-tutorial/blob/main/web/src/components/Article/Article.js). In order to illustrate the stepping process, we will set the breakpoint at the [line 8](https://github.com/adriatic/redwood-tutorial/blob/main/web/src/components/Article/Article.js#L8). This situation, rendered by the Chrome debugger is depicted on Image 5, below:
 
 <p align="center">
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196282692-b6740f8a-dc77-4aa1-8c3b-9978a96e5fa9.png"/>
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/2712405/208538688-2267b4cd-40f5-4827-b8c7-24f4c52032be.png"/>
 <br/>
-<b>Image 5 - example debugging BlogLayout.js component </b>
+<b>Image 5 - example debugging Article.js component</b>
 </p>
 <br/>
 
-Red marker 1 shows the **authored** source tree, with the component `BlogLayout.js` presented in the source panel (red marker 2). Note that the only breakpoint is set at line 57, which is also shown i the breakpoints list (red marker 3). Lastly the top of the right panel (detailed information about the context of the currently hit breakpoint) states that the debugger is paused (becuse it hit the breakpoint at line 57). 
+Green marker 1 shows the **authored** section of the source tree, with the component `Article.js` selected (green marker 2) and rentered in the source panel (green marker 3). Note that the only breakpoint (green marker 4) is set at line 8, which is also shown in the breakpoints list (green marker 6). The top of the right panel (detailed information about the context of the currently hit breakpoint) states that the debugger is paused (because it hit the breakpoint at line 8 - green marker 5). Finally, we can see the Local Scope panel, (green marker 7) renderig the local variable Article.
 
-The next three screenshots show the Local scope, the Closure and Global scope at this breakpoint
+The next two screenshots show the Closure and Global scope at this [specific breakpoint](https://github.com/adriatic/redwood-tutorial/blob/main/web/src/components/Article/Article.js#L8).
 
 <p align="center">
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196292853-5c353186-095e-4a04-8f90-7f1bbf871c7c.png"/>
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/208541789-2007029f-e691-482c-882e-f71f8e32237d.png"/>
 <br/>
-<b>Image 6 - Local scope </b>
+<b>Image 6 - Closure</b>
 </p>
 <br/>
 
+
 <p align="center">
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196293625-86da4e4d-079a-4c1b-b833-1116f61da7a7.png"/>
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/208542586-52bbf9db-acc2-46da-8384-4a0af19bb87b.png"/>
 <br/>
-<b>Image 7 - Closure </b>
+<b>Image 7 - Global scope </b>
 </p>
 <br/>
 
-<p align="center">
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/2712405/196308749-ca52dbaf-d28b-41ac-95b6-6632e39490fa.png"/>
-<br/>
-<b>Image 8 - Global scope </b>
-</p>
-<br/>
-
-In addition to this information we could define a set of watch variables, watch / breakpoint on threads, set DOM breakpoints, XHR/fetch breakpoints, set Event listener breakpoints and few other pieces of information. The section on using the Chrome debugger for tracing Authentication code in our [debugging target](https://rw-community.org/app%20management/debugging/setup#1-prepare-the-debugging-target) application provides more details on using these debugger features. 
+In addition to this information we could define a set of watch variables, watch / breakpoint on threads, set DOM breakpoints, XHR/fetch breakpoints, set Event listener breakpoints and few other pieces of information. The section on using the Chrome debugger for [Tracing Authentication code](https://rw-community.org/app%20management/debugging/tracing-code) in our [debugging target](https://rw-community.org/app%20management/debugging/setup#1-prepare-the-debugging-target) application provides more details on using these debugger features. 
 
 
 ---
