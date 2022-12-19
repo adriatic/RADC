@@ -140,9 +140,6 @@ The next three screenshots show the Local scope, the Closure and Global scope at
 In addition to this information we could define a set of watch variables, watch / breakpoint on threads, set DOM breakpoints, XHR/fetch breakpoints, set Event listener breakpoints and few other pieces of information. The section on using the Chrome debugger for tracing Authentication code in our [debugging target](https://rw-community.org/app%20management/debugging/setup#1-prepare-the-debugging-target) application provides more details on using these debugger features. 
 
 
-TODO
-
-
 ---
 
 ---
