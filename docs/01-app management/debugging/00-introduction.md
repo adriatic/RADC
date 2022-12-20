@@ -22,7 +22,7 @@ Please check the section [Setup the Chrome debugger](https://rw-community.org/ap
 
 #### Case 2: Using VSCode debugger
 
-.
+---
 
 ### 1. [Setup](https://rw-community.org/app%20management/debugging/setup):
 
@@ -32,11 +32,16 @@ Please check the section [Setup the Chrome debugger](https://rw-community.org/ap
 - [setting the VSCode debugger up](https://rw-community.org/app%20management/debugging/setup/#4-setup-visual-studio-code-debugger)
 - [brief explanation of VSCode debugger use](https://rw-community.org/app%20management/debugging/setup/#4-setup-visual-studio-code-debugger)
 
+---
+
 ### 2. [Tracing](https://rw-community.org/app%20management/debugging/tracing-code)
 
+---
 ### 3. [Debug techniques](https://rw-community.org/app%20management/debugging/debug-techniques)
 
 <p align="left">
 <img width="80" alt="image" src="https://user-images.githubusercontent.com/2712405/169575412-041fa3e9-0fb6-4550-8599-1c056b32fc32.png"/>
 <br/>
 </p>
+
+---

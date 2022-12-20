@@ -25,7 +25,6 @@ resulting with the front end of the Redwood Blog application running in the brow
 </p>
 <br/>
 
-
 ---
 
 ## 2. Setup the Chrome debugger
@@ -64,7 +63,8 @@ Click on the Devtools settings icon, then select the Experiments category and cl
 
 ---
 
-## 3. Definition of a typical session (Image 4 below)
+## 3. Definition of a typical session
+#### (see Image 4 below)
 
 The Terminal (Red marker 1, left-most) is nearly completely hidden, since we will not use it once the Blog app is started (`yarn rw dev`). Similarly, the Browser (Red marker 2) exposes only the "Reload this page" button, that will be used whenever we want to restart the debug session.
 The layout shown on the image 4 below, renders the browser panel mostly covered by the DevTool panel, where all debugging action takes place
@@ -79,25 +79,25 @@ The layout shown on the image 4 below, renders the browser panel mostly covered 
 <br/>
 
 **Area 1** (Green marker 4) <br/>
-Shows the application tree view in two structures - **Authored** and **Deployed**. We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
+- Shows the application tree view in two structures - **Authored** and **Deployed**. 
+- We will use the **Authored** view in the subsquent descriptions of the debugging exercises.
 
 **Area 2** (Green marker 5) <br/>
-Debugger rendering of the selected code (`Article.js`) in the Authored view (Green marker 4) section of the source tree. 
-
-depicts the source code view of the item selected in the application tree view (**Area 1**). The source code is rendered as originaly written Javascript / Typescript code. 
+- Debugger rendering of the selected code (`Article.js`) in the Authored view (Green marker 4) section of the source tree. 
+- Depicts the source code view of the item selected in the application tree view (**Area 1**). The source code is rendered as originaly written Javascript / Typescript code. 
 
 **Area 3** (Green marker 6) <br/>
-presents the detailed information about the context of the currently hit breakpoint:
+- Presents the detailed information about the context of the currently hit breakpoint:
 
-- list of defined watch variables
-- list of existing breakpoints
-- current application scope
-- call stack
-- list of enabled XMR/fetch breakpoints
-- list of DOM breakpoints
-- list of global listeners
-- list of event listeners breakpoints
-- list of CSP violation breakpoints
+  - list of defined watch variables
+  - list of existing breakpoints
+  - current application scope
+  - call stack
+  - list of enabled XMR/fetch breakpoints
+  - list of DOM breakpoints
+  - list of global listeners
+  - list of event listeners breakpoints
+  - list of CSP violation breakpoints
 
 ---
 
