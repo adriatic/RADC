@@ -30,7 +30,20 @@ resulting with the front end of the Redwood Blog application running in the brow
 ## 2. Setup the Chrome debugger
 
 We are describing the latest approach available since August 2022 which greatly simplifies access to [Authored and Deployed code](https://developer.chrome.com/blog/devtools-modern-web-debugging/#authored-versus-deployed-code)
-as explained in the article [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/). We will use the setup depicted below, and explained immediately after:
+as explained in the article [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/). 
+
+### 1. [Setup](https://rw-community.org/app%20management/debugging/setup):
+
+- defining the [target application](https://rw-community.org/app%20management/debugging/setup/#1-prepare-the-debugging-target) for debugging
+- [setting the chrome debugger up](https://rw-community.org/app%20management/debugging/setup/#2-setup-the-chrome-debugger)
+- [brief explanation of Chrome debugger use](https://rw-community.org/app%20management/debugging/setup/#3-example-of-use)
+- [setting the VSCode debugger up](https://rw-community.org/app%20management/debugging/setup/#4-setup-visual-studio-code-debugger)
+- [brief explanation of VSCode debugger use](https://rw-community.org/app%20management/debugging/setup/#4-setup-visual-studio-code-debugger)
+
+---
+
+
+We will use the setup depicted below, and explained immediately after:
 
 <p align="center">
 <img width="625" alt="image" src="https://user-images.githubusercontent.com/2712405/208278318-8de94e4e-65a4-4835-b92a-7b4fbe49d74c.png"/>
