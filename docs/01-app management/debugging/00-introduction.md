@@ -31,5 +31,7 @@ Please check the section [Setup the Chrome debugger](https://rw-community.org/ap
 
 ## Case B: Using VSCode debugger
 
+The difference between case A (debugging with Chrome Devtools debugger) and using VSCode debugger is in the means of using Chrome in such debugging session. This is the workflow to be used:
 
+1. Start the VSCode from the terminal via `vscode .` command, making sure to first set the current directory to the folder that contains you project's parts (In my case)
 ---
