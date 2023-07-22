@@ -11,4 +11,7 @@
 ___
 ## Summary
 
-This article is formatted as two interdependent documents
+This article is formatted as two interdependent documents:
+- The first "Docker refresher" demonstrates how to install Docker locally, how to create a local instance of PostgreSQL server and how to Docker Compose (launch) a mini sample application that uses Docker based PostgreSQL server
+
+- The second article 
