@@ -21,11 +21,20 @@ This article is formatted as two interdependent documents:
 
 ## Docker Refresher
 
+Please check the Docker's own [get started](https://docs.docker.com/get-started/) tutorial and run the code presented in the following sections
+
+- Build and run an image as a container.
+- Share images using Docker Hub.
+- Deploy Docker applications using multiple containers with a database.
+- Run applications using Docker Compose.
+
 ### Building a simple small application
+
+The application used to demonstrate the above listed bullet points is a clone of https://github.com/docker/getting-started-app.git
 
 ---
 
 ## Install and Build Redwood Blog Application
-
+### using Docker deployed PostgreSQL server
 `being written`
 
