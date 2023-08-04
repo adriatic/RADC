@@ -35,6 +35,8 @@ The application used to demonstrate the above listed bullet points is a clone of
 ---
 
 ## Install and Build Redwood Blog Application
-### using Docker deployed PostgreSQL server
+### using Docker installed PostgreSQL server
+
+
 `being written`
 
