@@ -10,7 +10,7 @@ Redwood Applications Development Cookbook
 </p>
 <br/>
 
-### Note: 
+### Note: (added on 03/19/2024)
 
 Since starting the Redwood fixie.ai development all older source files are moved to folder: /Users/nik/dev/**work-old**
 
