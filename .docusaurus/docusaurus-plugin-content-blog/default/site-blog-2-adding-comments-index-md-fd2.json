@@ -1,0 +1,55 @@
+{
+  "permalink": "/blog/adding comments",
+  "source": "@site/blog/2-Adding-comments/index.md",
+  "title": "Adding Github Discussion support",
+  "description": "Add giscus comment object to RADC",
+  "date": "2022-11-09T03:22:39.000Z",
+  "formattedDate": "November 9, 2022",
+  "tags": [
+    {
+      "label": "redwood",
+      "permalink": "/blog/tags/redwood"
+    },
+    {
+      "label": "application",
+      "permalink": "/blog/tags/application"
+    },
+    {
+      "label": "development",
+      "permalink": "/blog/tags/development"
+    },
+    {
+      "label": "cookbook",
+      "permalink": "/blog/tags/cookbook"
+    }
+  ],
+  "readingTime": 0.66,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "adriatic",
+      "title": "Maintainer of the RADC project",
+      "url": "https://github.com/adriatic",
+      "imageURL": "https://avatars.githubusercontent.com/u/2712405?s=400&u=e7498abb7c731c2b232480e03799b43615614de9&v=4",
+      "key": "adriatic"
+    }
+  ],
+  "frontMatter": {
+    "title": "Adding Github Discussion support",
+    "description": "Add giscus comment object to RADC",
+    "slug": "adding comments",
+    "authors": [
+      "adriatic"
+    ],
+    "tags": [
+      "redwood",
+      "application",
+      "development",
+      "cookbook"
+    ]
+  },
+  "nextItem": {
+    "title": "About RADC project",
+    "permalink": "/blog/welcome"
+  }
+}

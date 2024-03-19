@@ -1,0 +1,26 @@
+{
+  "unversionedId": "how to/Develop stripe/Part 1",
+  "id": "how to/Develop stripe/Part 1",
+  "title": "Part 1",
+  "description": "Prerequisites",
+  "source": "@site/docs/02-how to/Develop stripe/02-Part 1.md",
+  "sourceDirName": "02-how to/Develop stripe",
+  "slug": "/how to/Develop stripe/Part 1",
+  "permalink": "/how to/Develop stripe/Part 1",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Part 1"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/how to/Develop stripe/Introduction"
+  },
+  "next": {
+    "title": "Part 2",
+    "permalink": "/how to/Develop stripe/Part 2"
+  }
+}

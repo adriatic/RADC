@@ -1,0 +1,13 @@
+{
+  "title": "All posts",
+  "items": [
+    {
+      "title": "Adding Github Discussion support",
+      "permalink": "/blog/adding comments"
+    },
+    {
+      "title": "About RADC project",
+      "permalink": "/blog/welcome"
+    }
+  ]
+}

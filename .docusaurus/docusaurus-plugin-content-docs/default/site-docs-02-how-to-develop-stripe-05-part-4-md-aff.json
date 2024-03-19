@@ -1,0 +1,26 @@
+{
+  "unversionedId": "how to/Develop stripe/Part 4",
+  "id": "how to/Develop stripe/Part 4",
+  "title": "Part 4",
+  "description": "Sellers payouts with Stripe Connect",
+  "source": "@site/docs/02-how to/Develop stripe/05-Part 4.md",
+  "sourceDirName": "02-how to/Develop stripe",
+  "slug": "/how to/Develop stripe/Part 4",
+  "permalink": "/how to/Develop stripe/Part 4",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Part 4"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Part 3",
+    "permalink": "/how to/Develop stripe/Part 3"
+  },
+  "next": {
+    "title": "Part 5",
+    "permalink": "/how to/Develop stripe/Part 5"
+  }
+}

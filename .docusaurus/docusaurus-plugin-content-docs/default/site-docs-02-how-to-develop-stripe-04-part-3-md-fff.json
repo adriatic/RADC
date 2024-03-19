@@ -1,0 +1,26 @@
+{
+  "unversionedId": "how to/Develop stripe/Part 3",
+  "id": "how to/Develop stripe/Part 3",
+  "title": "Part 3",
+  "description": "Buying products",
+  "source": "@site/docs/02-how to/Develop stripe/04-Part 3.md",
+  "sourceDirName": "02-how to/Develop stripe",
+  "slug": "/how to/Develop stripe/Part 3",
+  "permalink": "/how to/Develop stripe/Part 3",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Part 3"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Part 2",
+    "permalink": "/how to/Develop stripe/Part 2"
+  },
+  "next": {
+    "title": "Part 4",
+    "permalink": "/how to/Develop stripe/Part 4"
+  }
+}

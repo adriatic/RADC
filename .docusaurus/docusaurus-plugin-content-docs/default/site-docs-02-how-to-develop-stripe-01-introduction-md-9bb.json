@@ -1,0 +1,26 @@
+{
+  "unversionedId": "how to/Develop stripe/Introduction",
+  "id": "how to/Develop stripe/Introduction",
+  "title": "Introduction",
+  "description": "By standup75",
+  "source": "@site/docs/02-how to/Develop stripe/01-Introduction.md",
+  "sourceDirName": "02-how to/Develop stripe",
+  "slug": "/how to/Develop stripe/Introduction",
+  "permalink": "/how to/Develop stripe/Introduction",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Install PostgreSQL with EDB Installer",
+    "permalink": "/how to/Install PostgreSQL"
+  },
+  "next": {
+    "title": "Part 1",
+    "permalink": "/how to/Develop stripe/Part 1"
+  }
+}

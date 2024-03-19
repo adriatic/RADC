@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/deployment/aws",
+  "id": "app management/deployment/aws",
+  "title": "Deploy to AWS",
+  "description": "By new volunteer",
+  "source": "@site/docs/01-app management/deployment/04-aws.md",
+  "sourceDirName": "01-app management/deployment",
+  "slug": "/app management/deployment/aws",
+  "permalink": "/app management/deployment/aws",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Deploy to AWS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy to Render",
+    "permalink": "/app management/deployment/render"
+  },
+  "next": {
+    "title": "Reinstall RedwoodJS",
+    "permalink": "/how to/Reinstall RW"
+  }
+}

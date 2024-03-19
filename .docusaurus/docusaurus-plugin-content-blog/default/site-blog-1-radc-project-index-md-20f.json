@@ -1,0 +1,55 @@
+{
+  "permalink": "/blog/welcome",
+  "source": "@site/blog/1-RADC-project/index.md",
+  "title": "About RADC project",
+  "description": "RADC project description",
+  "date": "2022-05-25T20:31:56.000Z",
+  "formattedDate": "May 25, 2022",
+  "tags": [
+    {
+      "label": "redwood",
+      "permalink": "/blog/tags/redwood"
+    },
+    {
+      "label": "application",
+      "permalink": "/blog/tags/application"
+    },
+    {
+      "label": "development",
+      "permalink": "/blog/tags/development"
+    },
+    {
+      "label": "cookbook",
+      "permalink": "/blog/tags/cookbook"
+    }
+  ],
+  "readingTime": 1.85,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "adriatic",
+      "title": "Maintainer of the RADC project",
+      "url": "https://github.com/adriatic",
+      "imageURL": "https://avatars.githubusercontent.com/u/2712405?s=400&u=e7498abb7c731c2b232480e03799b43615614de9&v=4",
+      "key": "adriatic"
+    }
+  ],
+  "frontMatter": {
+    "title": "About RADC project",
+    "description": "RADC project description",
+    "slug": "welcome",
+    "authors": [
+      "adriatic"
+    ],
+    "tags": [
+      "redwood",
+      "application",
+      "development",
+      "cookbook"
+    ]
+  },
+  "prevItem": {
+    "title": "Adding Github Discussion support",
+    "permalink": "/blog/adding comments"
+  }
+}

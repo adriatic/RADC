@@ -1,0 +1,122 @@
+{
+  "blogPosts": [
+    {
+      "id": "adding comments",
+      "metadata": {
+        "permalink": "/blog/adding comments",
+        "source": "@site/blog/2-Adding-comments/index.md",
+        "title": "Adding Github Discussion support",
+        "description": "Add giscus comment object to RADC",
+        "date": "2022-11-09T03:22:39.000Z",
+        "formattedDate": "November 9, 2022",
+        "tags": [
+          {
+            "label": "redwood",
+            "permalink": "/blog/tags/redwood"
+          },
+          {
+            "label": "application",
+            "permalink": "/blog/tags/application"
+          },
+          {
+            "label": "development",
+            "permalink": "/blog/tags/development"
+          },
+          {
+            "label": "cookbook",
+            "permalink": "/blog/tags/cookbook"
+          }
+        ],
+        "readingTime": 0.66,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "adriatic",
+            "title": "Maintainer of the RADC project",
+            "url": "https://github.com/adriatic",
+            "imageURL": "https://avatars.githubusercontent.com/u/2712405?s=400&u=e7498abb7c731c2b232480e03799b43615614de9&v=4",
+            "key": "adriatic"
+          }
+        ],
+        "frontMatter": {
+          "title": "Adding Github Discussion support",
+          "description": "Add giscus comment object to RADC",
+          "slug": "adding comments",
+          "authors": [
+            "adriatic"
+          ],
+          "tags": [
+            "redwood",
+            "application",
+            "development",
+            "cookbook"
+          ]
+        },
+        "nextItem": {
+          "title": "About RADC project",
+          "permalink": "/blog/welcome"
+        }
+      },
+      "content": "Adding the [GitHub Discussions](https://docs.github.com/en/) \n\n:::info\n\nThis document describes the process of using the [giscus](https://giscus.app/) \ncomment plugin powered by [Github Discussion](https://docs.github.com/en/discussions) open source **forum** component (see Image 1 below)\n\n:::\n\n<br/>\n\n<p align=\"center\">\n<img width=\"625\" alt=\"image\" src=\"https://user-images.githubusercontent.com/2712405/200948228-8c4203da-3463-4512-85e0-7d908e505bd6.png\"/>\n<br/>\n<b>Image 1</b>\n</p>\n<br/>\n\n## About GitHub Discussions component\n\nCheck [Quickstart for GitHub Discussions](https://docs.github.com/en/discussions/quickstart) to find out the depth and breath of this component. For the purpose of this RADC application we use a restricted set of Github Discussion component presented to the user via **`giscus`** component, open source software application created by Sage Abdullah in his blog [Introducing giscus](https://laymonage.com/posts/giscus) in this [section](https://laymonage.com/posts/giscus#github-discussions-).\n\nGiscus widget and Github Discussions are still under active development, so this implementation created for RADC will likely have to change with time. See [giscus repository](https://github.com/giscus/giscus) for more information. \n\n---\n---\n<br/>"
+    },
+    {
+      "id": "welcome",
+      "metadata": {
+        "permalink": "/blog/welcome",
+        "source": "@site/blog/1-RADC-project/index.md",
+        "title": "About RADC project",
+        "description": "RADC project description",
+        "date": "2022-05-25T20:31:56.000Z",
+        "formattedDate": "May 25, 2022",
+        "tags": [
+          {
+            "label": "redwood",
+            "permalink": "/blog/tags/redwood"
+          },
+          {
+            "label": "application",
+            "permalink": "/blog/tags/application"
+          },
+          {
+            "label": "development",
+            "permalink": "/blog/tags/development"
+          },
+          {
+            "label": "cookbook",
+            "permalink": "/blog/tags/cookbook"
+          }
+        ],
+        "readingTime": 1.85,
+        "hasTruncateMarker": false,
+        "authors": [
+          {
+            "name": "adriatic",
+            "title": "Maintainer of the RADC project",
+            "url": "https://github.com/adriatic",
+            "imageURL": "https://avatars.githubusercontent.com/u/2712405?s=400&u=e7498abb7c731c2b232480e03799b43615614de9&v=4",
+            "key": "adriatic"
+          }
+        ],
+        "frontMatter": {
+          "title": "About RADC project",
+          "description": "RADC project description",
+          "slug": "welcome",
+          "authors": [
+            "adriatic"
+          ],
+          "tags": [
+            "redwood",
+            "application",
+            "development",
+            "cookbook"
+          ]
+        },
+        "prevItem": {
+          "title": "Adding Github Discussion support",
+          "permalink": "/blog/adding comments"
+        }
+      },
+      "content": "**R**edwood **A**pplication **D**evelopment **C**ookbook (RADC) is the project trying to engage volunteers from RedwoodJS fans -- mostly application developers that selected RedwoodJS as their favorite framework, after acquiring the experience and enthusiasm provided by one of the best [Tutorial](https://redwoodjs.com/docs/tutorial/foreword)s in the industry.\n\nThere are several good reasons to structure RADC as an extension of the Tutorial:\n\n- Most of the RWJS newcomers will find the Tutorial so good that they will feel encouraged to start using the framework for a real project. Despite already stating that the Tutorial is terrific, we wanted to provide more articles explaining the RWJS behavior in a more \"real world\". So, this additional information describes the use of the various developer's tools applied to the \"real world\" application developed in the course of following the Tutorial. This application is named Redwood Blog and is made available in its source form as [Redwood-tutorial](https://github.com/redwoodjs/redwood-tutorial). So most of the initial articles in this cookbook start where the RWJS tutorial ends, by further expanding the knowledge from the Tutorial.\n\n- Our intent is to organize RWJS users - RWJS application developers as principal contributors to this RADC site. At least some of us believe that **application developers** are more likely to know more about application developement than framework developers (and vice versa). So, this site represents the boundary between the two categories od software developers and it is very likely that there will exist interaction between them, in that specific context. Such interaction will be an additional quality step that might appeal even more customers to [RedwoodJS](https://redwoodjs.com/) - customers who responded to our motto: `designed to help you grow from side project to startup.`\n\n---\n<br/>\n\nTo make the `project creation process` simple and scalable, all information (explanations, discussions and project content (cookbook articles themselves)) are persisted as [issues](https://github.com/adriatic/RADC/issues) in this repository. Please provide your feedback (comments to specific properties, ideas for improvements, statements of dissatisfaction) in the context of these [issues](https://github.com/adriatic/RADC/issues). \n\n### Index\n\n1. [Initialization of RADC project](https://github.com/adriatic/RADC/issues/3#issue-1242355648)\n2. [List of articles, tools and potential authors](https://github.com/adriatic/RADC/issues/3#issuecomment-1132239638)\n3. First article proposal: [realStandal](https://github.com/realStandal) - [General broken feature resolution](https://github.com/adriatic/RADC/issues/5). Published to [RADC site](https://rw-community.org/how%20to/reinstall%20rw/) 5/28/2022).\n4. Second article proposal: [adriatic](https://github.com/adriatic) -  [stepping through the code in Tutorial authentication section](https://github.com/adriatic/RADC/issues/4#issue-1243406438)\n\n---\n---\n<br/>"
+    }
+  ]
+}

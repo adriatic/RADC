@@ -1,0 +1,24 @@
+{
+  "unversionedId": "introduction",
+  "id": "introduction",
+  "title": "About RADC",
+  "description": "Caveats",
+  "source": "@site/docs/0-introduction.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "slug": "/",
+    "title": "About RADC"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Building",
+    "permalink": "/app management/building/Introduction"
+  }
+}

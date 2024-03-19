@@ -1,0 +1,25 @@
+{
+  "unversionedId": "app management/building/Introduction",
+  "id": "app management/building/Introduction",
+  "title": "Building",
+  "description": "",
+  "source": "@site/docs/01-app management/building/Introduction.md",
+  "sourceDirName": "01-app management/building",
+  "slug": "/app management/building/Introduction",
+  "permalink": "/app management/building/Introduction",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Building"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "About RADC",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/app management/debugging/introduction"
+  }
+}

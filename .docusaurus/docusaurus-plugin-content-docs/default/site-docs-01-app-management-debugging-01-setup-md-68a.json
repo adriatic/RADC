@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/debugging/setup",
+  "id": "app management/debugging/setup",
+  "title": "Setup",
+  "description": "1. Prepare the debugging target",
+  "source": "@site/docs/01-app management/debugging/01-setup.md",
+  "sourceDirName": "01-app management/debugging",
+  "slug": "/app management/debugging/setup",
+  "permalink": "/app management/debugging/setup",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Setup"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/app management/debugging/introduction"
+  },
+  "next": {
+    "title": "Tracing code",
+    "permalink": "/app management/debugging/tracing-code"
+  }
+}

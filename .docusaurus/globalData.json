@@ -1,0 +1,118 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "app management/building/Introduction",
+              "path": "/app management/building/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/debugging/debug-techniques",
+              "path": "/app management/debugging/debug-techniques",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/debugging/introduction",
+              "path": "/app management/debugging/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/debugging/setup",
+              "path": "/app management/debugging/setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/debugging/tracing-code",
+              "path": "/app management/debugging/tracing-code",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/deployment/aws",
+              "path": "/app management/deployment/aws",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/deployment/netlify",
+              "path": "/app management/deployment/netlify",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/deployment/render",
+              "path": "/app management/deployment/render",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "app management/deployment/vercel",
+              "path": "/app management/deployment/vercel",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Develop stripe/Introduction",
+              "path": "/how to/Develop stripe/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Develop stripe/Part 1",
+              "path": "/how to/Develop stripe/Part 1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Develop stripe/Part 2",
+              "path": "/how to/Develop stripe/Part 2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Develop stripe/Part 3",
+              "path": "/how to/Develop stripe/Part 3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Develop stripe/Part 4",
+              "path": "/how to/Develop stripe/Part 4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Develop stripe/Part 5",
+              "path": "/how to/Develop stripe/Part 5",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Install PostgreSQL",
+              "path": "/how to/Install PostgreSQL",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "how to/Reinstall RW",
+              "path": "/how to/Reinstall RW",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

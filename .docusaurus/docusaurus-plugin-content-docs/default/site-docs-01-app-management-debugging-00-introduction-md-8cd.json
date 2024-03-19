@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/debugging/introduction",
+  "id": "app management/debugging/introduction",
+  "title": "Introduction",
+  "description": "This section on Redwood applications debugging is organized as a set of three chapters. All the information presented in this document extends the sections Debugger information from the RedwoodJS tutorial application.",
+  "source": "@site/docs/01-app management/debugging/00-introduction.md",
+  "sourceDirName": "01-app management/debugging",
+  "slug": "/app management/debugging/introduction",
+  "permalink": "/app management/debugging/introduction",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "title": "Introduction"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building",
+    "permalink": "/app management/building/Introduction"
+  },
+  "next": {
+    "title": "Setup",
+    "permalink": "/app management/debugging/setup"
+  }
+}

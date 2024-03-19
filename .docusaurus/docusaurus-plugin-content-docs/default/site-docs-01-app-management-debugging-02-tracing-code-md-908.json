@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/debugging/tracing-code",
+  "id": "app management/debugging/tracing-code",
+  "title": "Tracing code",
+  "description": "By adriatic",
+  "source": "@site/docs/01-app management/debugging/02-tracing-code.md",
+  "sourceDirName": "01-app management/debugging",
+  "slug": "/app management/debugging/tracing-code",
+  "permalink": "/app management/debugging/tracing-code",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Tracing code"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup",
+    "permalink": "/app management/debugging/setup"
+  },
+  "next": {
+    "title": "Debug Techniques",
+    "permalink": "/app management/debugging/debug-techniques"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/debugging/debug-techniques",
+  "id": "app management/debugging/debug-techniques",
+  "title": "Debug Techniques",
+  "description": "",
+  "source": "@site/docs/01-app management/debugging/03-debug-techniques.md",
+  "sourceDirName": "01-app management/debugging",
+  "slug": "/app management/debugging/debug-techniques",
+  "permalink": "/app management/debugging/debug-techniques",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Debug Techniques"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tracing code",
+    "permalink": "/app management/debugging/tracing-code"
+  },
+  "next": {
+    "title": "Deploy to Netlify",
+    "permalink": "/app management/deployment/netlify"
+  }
+}

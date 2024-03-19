@@ -1,0 +1,26 @@
+{
+  "unversionedId": "how to/Install PostgreSQL",
+  "id": "how to/Install PostgreSQL",
+  "title": "Install PostgreSQL with EDB Installer",
+  "description": "By adriatic",
+  "source": "@site/docs/02-how to/02-Install PostgreSQL.md",
+  "sourceDirName": "02-how to",
+  "slug": "/how to/Install PostgreSQL",
+  "permalink": "/how to/Install PostgreSQL",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Install PostgreSQL with EDB Installer"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Reinstall RedwoodJS",
+    "permalink": "/how to/Reinstall RW"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/how to/Develop stripe/Introduction"
+  }
+}

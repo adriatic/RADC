@@ -1,0 +1,22 @@
+{
+  "unversionedId": "how to/Develop stripe/Part 5",
+  "id": "how to/Develop stripe/Part 5",
+  "title": "Part 5",
+  "description": "Manage subscriptions and payments",
+  "source": "@site/docs/02-how to/Develop stripe/06-Part 5.md",
+  "sourceDirName": "02-how to/Develop stripe",
+  "slug": "/how to/Develop stripe/Part 5",
+  "permalink": "/how to/Develop stripe/Part 5",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Part 5"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Part 4",
+    "permalink": "/how to/Develop stripe/Part 4"
+  }
+}

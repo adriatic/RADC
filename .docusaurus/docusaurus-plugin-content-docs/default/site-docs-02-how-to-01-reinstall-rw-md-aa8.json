@@ -1,0 +1,26 @@
+{
+  "unversionedId": "how to/Reinstall RW",
+  "id": "how to/Reinstall RW",
+  "title": "Reinstall RedwoodJS",
+  "description": "By realStandal",
+  "source": "@site/docs/02-how to/01-Reinstall RW.md",
+  "sourceDirName": "02-how to",
+  "slug": "/how to/Reinstall RW",
+  "permalink": "/how to/Reinstall RW",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Reinstall RedwoodJS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy to AWS",
+    "permalink": "/app management/deployment/aws"
+  },
+  "next": {
+    "title": "Install PostgreSQL with EDB Installer",
+    "permalink": "/how to/Install PostgreSQL"
+  }
+}

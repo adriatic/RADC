@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/deployment/netlify",
+  "id": "app management/deployment/netlify",
+  "title": "Deploy to Netlify",
+  "description": "By adriatic",
+  "source": "@site/docs/01-app management/deployment/01-netlify.md",
+  "sourceDirName": "01-app management/deployment",
+  "slug": "/app management/deployment/netlify",
+  "permalink": "/app management/deployment/netlify",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Deploy to Netlify"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Debug Techniques",
+    "permalink": "/app management/debugging/debug-techniques"
+  },
+  "next": {
+    "title": "Deploy to Vercel",
+    "permalink": "/app management/deployment/vercel"
+  }
+}

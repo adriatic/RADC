@@ -1,0 +1,280 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "About RADC",
+        "href": "/",
+        "docId": "introduction"
+      },
+      {
+        "type": "category",
+        "label": "App management",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Building",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Building",
+                "href": "/app management/building/Introduction",
+                "docId": "app management/building/Introduction"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Debugging",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/app management/debugging/introduction",
+                "docId": "app management/debugging/introduction"
+              },
+              {
+                "type": "link",
+                "label": "Setup",
+                "href": "/app management/debugging/setup",
+                "docId": "app management/debugging/setup"
+              },
+              {
+                "type": "link",
+                "label": "Tracing code",
+                "href": "/app management/debugging/tracing-code",
+                "docId": "app management/debugging/tracing-code"
+              },
+              {
+                "type": "link",
+                "label": "Debug Techniques",
+                "href": "/app management/debugging/debug-techniques",
+                "docId": "app management/debugging/debug-techniques"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Deployment",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Deploy to Netlify",
+                "href": "/app management/deployment/netlify",
+                "docId": "app management/deployment/netlify"
+              },
+              {
+                "type": "link",
+                "label": "Deploy to Vercel",
+                "href": "/app management/deployment/vercel",
+                "docId": "app management/deployment/vercel"
+              },
+              {
+                "type": "link",
+                "label": "Deploy to Render",
+                "href": "/app management/deployment/render",
+                "docId": "app management/deployment/render"
+              },
+              {
+                "type": "link",
+                "label": "Deploy to AWS",
+                "href": "/app management/deployment/aws",
+                "docId": "app management/deployment/aws"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "How to",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Reinstall RedwoodJS",
+            "href": "/how to/Reinstall RW",
+            "docId": "how to/Reinstall RW"
+          },
+          {
+            "type": "link",
+            "label": "Install PostgreSQL with EDB Installer",
+            "href": "/how to/Install PostgreSQL",
+            "docId": "how to/Install PostgreSQL"
+          },
+          {
+            "type": "category",
+            "label": "Create Redwood-Stripe app from scratch",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Introduction",
+                "href": "/how to/Develop stripe/Introduction",
+                "docId": "how to/Develop stripe/Introduction"
+              },
+              {
+                "type": "link",
+                "label": "Part 1",
+                "href": "/how to/Develop stripe/Part 1",
+                "docId": "how to/Develop stripe/Part 1"
+              },
+              {
+                "type": "link",
+                "label": "Part 2",
+                "href": "/how to/Develop stripe/Part 2",
+                "docId": "how to/Develop stripe/Part 2"
+              },
+              {
+                "type": "link",
+                "label": "Part 3",
+                "href": "/how to/Develop stripe/Part 3",
+                "docId": "how to/Develop stripe/Part 3"
+              },
+              {
+                "type": "link",
+                "label": "Part 4",
+                "href": "/how to/Develop stripe/Part 4",
+                "docId": "how to/Develop stripe/Part 4"
+              },
+              {
+                "type": "link",
+                "label": "Part 5",
+                "href": "/how to/Develop stripe/Part 5",
+                "docId": "how to/Develop stripe/Part 5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "app management/building/Introduction": {
+      "id": "app management/building/Introduction",
+      "title": "Building",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/debugging/debug-techniques": {
+      "id": "app management/debugging/debug-techniques",
+      "title": "Debug Techniques",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/debugging/introduction": {
+      "id": "app management/debugging/introduction",
+      "title": "Introduction",
+      "description": "This section on Redwood applications debugging is organized as a set of three chapters. All the information presented in this document extends the sections Debugger information from the RedwoodJS tutorial application.",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/debugging/setup": {
+      "id": "app management/debugging/setup",
+      "title": "Setup",
+      "description": "1. Prepare the debugging target",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/debugging/tracing-code": {
+      "id": "app management/debugging/tracing-code",
+      "title": "Tracing code",
+      "description": "By adriatic",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/deployment/aws": {
+      "id": "app management/deployment/aws",
+      "title": "Deploy to AWS",
+      "description": "By new volunteer",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/deployment/netlify": {
+      "id": "app management/deployment/netlify",
+      "title": "Deploy to Netlify",
+      "description": "By adriatic",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/deployment/render": {
+      "id": "app management/deployment/render",
+      "title": "Deploy to Render",
+      "description": "By adriatic",
+      "sidebar": "tutorialSidebar"
+    },
+    "app management/deployment/vercel": {
+      "id": "app management/deployment/vercel",
+      "title": "Deploy to Vercel",
+      "description": "By adriatic",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Develop stripe/Introduction": {
+      "id": "how to/Develop stripe/Introduction",
+      "title": "Introduction",
+      "description": "By standup75",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Develop stripe/Part 1": {
+      "id": "how to/Develop stripe/Part 1",
+      "title": "Part 1",
+      "description": "Prerequisites",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Develop stripe/Part 2": {
+      "id": "how to/Develop stripe/Part 2",
+      "title": "Part 2",
+      "description": "Subscription Management",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Develop stripe/Part 3": {
+      "id": "how to/Develop stripe/Part 3",
+      "title": "Part 3",
+      "description": "Buying products",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Develop stripe/Part 4": {
+      "id": "how to/Develop stripe/Part 4",
+      "title": "Part 4",
+      "description": "Sellers payouts with Stripe Connect",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Develop stripe/Part 5": {
+      "id": "how to/Develop stripe/Part 5",
+      "title": "Part 5",
+      "description": "Manage subscriptions and payments",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Install PostgreSQL": {
+      "id": "how to/Install PostgreSQL",
+      "title": "Install PostgreSQL with EDB Installer",
+      "description": "By adriatic",
+      "sidebar": "tutorialSidebar"
+    },
+    "how to/Reinstall RW": {
+      "id": "how to/Reinstall RW",
+      "title": "Reinstall RedwoodJS",
+      "description": "By realStandal",
+      "sidebar": "tutorialSidebar"
+    },
+    "introduction": {
+      "id": "introduction",
+      "title": "About RADC",
+      "description": "Caveats",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

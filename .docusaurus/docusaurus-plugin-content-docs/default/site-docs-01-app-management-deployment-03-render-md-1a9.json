@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/deployment/render",
+  "id": "app management/deployment/render",
+  "title": "Deploy to Render",
+  "description": "By adriatic",
+  "source": "@site/docs/01-app management/deployment/03-render.md",
+  "sourceDirName": "01-app management/deployment",
+  "slug": "/app management/deployment/render",
+  "permalink": "/app management/deployment/render",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Deploy to Render"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy to Vercel",
+    "permalink": "/app management/deployment/vercel"
+  },
+  "next": {
+    "title": "Deploy to AWS",
+    "permalink": "/app management/deployment/aws"
+  }
+}

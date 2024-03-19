@@ -1,0 +1,26 @@
+{
+  "unversionedId": "app management/deployment/vercel",
+  "id": "app management/deployment/vercel",
+  "title": "Deploy to Vercel",
+  "description": "By adriatic",
+  "source": "@site/docs/01-app management/deployment/02-vercel.md",
+  "sourceDirName": "01-app management/deployment",
+  "slug": "/app management/deployment/vercel",
+  "permalink": "/app management/deployment/vercel",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Deploy to Vercel"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy to Netlify",
+    "permalink": "/app management/deployment/netlify"
+  },
+  "next": {
+    "title": "Deploy to Render",
+    "permalink": "/app management/deployment/render"
+  }
+}

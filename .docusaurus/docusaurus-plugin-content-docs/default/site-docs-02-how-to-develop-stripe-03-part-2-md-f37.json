@@ -1,0 +1,26 @@
+{
+  "unversionedId": "how to/Develop stripe/Part 2",
+  "id": "how to/Develop stripe/Part 2",
+  "title": "Part 2",
+  "description": "Subscription Management",
+  "source": "@site/docs/02-how to/Develop stripe/03-Part 2.md",
+  "sourceDirName": "02-how to/Develop stripe",
+  "slug": "/how to/Develop stripe/Part 2",
+  "permalink": "/how to/Develop stripe/Part 2",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Part 2"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Part 1",
+    "permalink": "/how to/Develop stripe/Part 1"
+  },
+  "next": {
+    "title": "Part 3",
+    "permalink": "/how to/Develop stripe/Part 3"
+  }
+}

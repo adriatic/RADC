@@ -10,6 +10,13 @@ Redwood Applications Development Cookbook
 </p>
 <br/>
 
+### Note: 
+
+Since starting the Redwood fixie.ai development all older source files are moved to folder: /Users/nik/dev/**work-old**
+
+Local folder for RADC app is accordingly
+
+`/Users/nik/dev/work-old/redwood/rw-community/RADC`
 ___
 
 To make the `project creation process` simple and scalable, all information (explanations, discussions and project content (cookbook articles themselves)) are persisted as [issues](https://github.com/adriatic/RADC/issues) in this repository.
